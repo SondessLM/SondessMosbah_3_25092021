@@ -62,7 +62,7 @@ body{
 
 input
 {
-    background-color: #eaeaea;
+    background-color: $colour-grey;
     border: none;
     color: black;
     margin-right: -41px;
@@ -100,6 +100,7 @@ h3
     text-decoration: transparent;
     background-image:linear-gradient(to right, #FF79DA 9%, #9356DC 91%) ;
 
+ 
    }
    .nav
    {
@@ -108,7 +109,7 @@ h3
        margin: 1rem;
        padding: 1rem 0 1rem 0;
        align-items: center;
-       width: 92%;
+       width: 91%;
        justify-content: left;
        border-radius: 1.5rem;
        box-shadow: 3px 3px 10px #dedada;
@@ -120,8 +121,8 @@ h3
        background-color:$colour-primary;
        border: 1px solid $colour-primary;
        border-radius: 50%;
-       padding: 0px 10px 0px 10px;
-       margin: 0 10px 0 -13px;
+       padding: 0px 13px 0px 10px;
+       margin: 0 10px 0 -11px;
        font-weight: bold;
         
    }
@@ -137,7 +138,7 @@ h3
 {
     font-weight: bold;
     margin-left: 1rem;
-    font-size: 1rem;
+    font-size: 1.1rem;
 
 }
 
@@ -145,9 +146,9 @@ h3
 .restaurant
 {
     background-color:$colour-grey ;
-    width: 100%;
-    
     height: 1086px;
+    padding: 1em 1em 1em 0em;
+    
 
 }
 .restaurant-img
@@ -173,26 +174,44 @@ h3
   h2
   {
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.5em;
     color: black;
-
+    margin: 1em 1em 1em 1em;
+    
+    h4
+    {
+      font-weight: bold;
+      font-size: 1.5em;
+      color: black;
+      margin: 1em 1em 1em 1em;
+}
   }
   .heart 
-  {
-    margin-left: 273px;
-    margin-top: -40px;
+   {
+	position: absolute;
+	cursor: pointer;
+	transform-origin: bottom;
+	font-size: 24px;
+	right: 4.5rem;
+	bottom: -20rem;
+	opacity: 1;
+
   }
   .heart1
   {
-    margin-left: 272.7px;
-    margin-top: -19.4px;
-    
+    position: absolute;
+	cursor: pointer;
+	transform-origin: bottom;
+	font-size: 24px;
+	right: 4.5rem;
+	bottom: -20rem;
+	opacity: 1;
     
    }
    .heart1:hover
-   {
+   { position: absolute;
        cursor: pointer;
-       background-image: #9356DC;
+       background-image: $colour-primary;
 
    }
 
@@ -245,6 +264,31 @@ h3
 }
 .noir
 {
-    color:$colour-black;
+    color:inherit;
     font-size: 15px;
 }
+.return
+{ display: inline;
+   position: absolute;
+   top: 1.5rem;
+   left: 1rem;
+   color: $colour-black;
+
+}
+.headerlogo
+{
+    text-align: center;
+    margin-top: 1rem;
+}
+.menu__foto
+     {
+         width: 100%;
+        height:250px;
+         object-fit: cover;
+      }
+h5  {
+        font-size: 1.6rem;
+        margin: 0;
+        font-family: "shrikhand",sans-serif;  
+        text-align: center;
+        }
