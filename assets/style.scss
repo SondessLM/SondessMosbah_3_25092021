@@ -14,7 +14,7 @@ $colour-shadow:#dedada;
 
     
 
-    
+
 
 
 p
@@ -533,7 +533,7 @@ width: 14%;
 .select
 {
     @extend .prix;
-    left: 270px;
+    left: 265x;
     top: 393px;
     background-color: #99E2D0;
     color: #fff;
@@ -560,8 +560,25 @@ width: 14%;
            
         
     }
- }
+ 
 .margin
 {
 margin-bottom: 5px;
+}
 }    
+@media only screen and (min-width: 768px) 
+{
+/*grand ecran et tablette*/
+
+.fonctionnement
+{
+width: 50%;
+position: absolute;
+right: -23px;
+top: 38px;
+}
+.position
+{
+    width: 50%;
+}
+}
