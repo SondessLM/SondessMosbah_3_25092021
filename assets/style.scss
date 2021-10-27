@@ -397,7 +397,7 @@ h1
 /*cartes menus*/         
 h5  {
     font-size: 1.6rem;
-    margin: 25px;
+    margin: 24px 12px 12px 16px;
     font-family: "shrikhand", sans-serif;
     text-align: left;}
 
@@ -414,8 +414,8 @@ h5  {
 .heart8
 {
  @extend .heart;
- right: 2.5rem;
- top: 299px;
+ right: 1rem;
+ top: 302px;
 
  
  }
@@ -423,13 +423,13 @@ h5  {
  .heart9
  {
   @extend .heart1;
-  right: 2.5rem;
-  top: 299px;
+  right: 1rem;
+  top: 302px;
 
   }
 .menu
 {
-margin-left:25px;
+margin-left:15px;
 margin-bottom: 10px;
 font-size: 18px;
 font-family: 'Roboto,'sans-serif;
@@ -451,22 +451,23 @@ width: 14%;
     font-family: 'ROBOTO', sans-serif;
     font-size: 15px;
     font-weight:599 ;
-    margin-left: 12px;
+    margin-left: 9px;
     padding-top: 1px;
 }
 .details
 {
     @extend .titre;
-    font-weight: 400;
-    margin-top: -16px;
+    font-weight: 500;
+    margin-top: -10px;
     padding-bottom: 9px;
+    font-size: 14px;
 }
 .prix
 {
     display: inline;
     position:absolute;
     left:280px;
-    top:437px;
+    top:434px;
     cursor: pointer;
     font-weight: 550;
     font-size: 15px;
@@ -492,57 +493,57 @@ width: 14%;
 .prix1
 {
     @extend .prix;
-    top:512px;
+    top:514px;
     
 }
 .prix2
 {
     @extend .prix;
-    top:588px;
+    top:592px;
    
 }
 .prix3
 {
     @extend .prix;
-    top:705px;
+    top:717px;
 }
 .prix4
 {
     @extend .prix;
-    top:780px;
+    top:797px;
 }
 .prix5
 {
     @extend .prix;
-    top:855px;
+    top:877px;
 }
 .prix6
 {
     @extend .prix;
-    top:977px;
+    top:999px;
 }
 .prix7
 {
     @extend .prix;
-    top:1052px; 
+    top:1078px; 
 }
 .prix8
 {
     @extend .prix;
-    top:1126px;
+    top:1158px;
 }
 .select
 {
     @extend .prix;
     background-color: #99E2D0;
     color: #fff;
-    font-size: 24px;
+    font-size: 28px;
     padding: 17px;
     border-radius: 0 20% 20% 0;
     opacity: 0;
     cursor: pointer;
-    top:402px;
-    left:259px;
+    top:393px;
+    left:247px;
 
     &:hover
     {
