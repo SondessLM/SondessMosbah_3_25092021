@@ -338,7 +338,7 @@ h5 {
 .plan__menu {
   background-color: #fff;
   width: 93%;
-  margin: auto;
+  margin: auto auto 14px auto;
   border-radius: 12px 12px;
   font-family: "Roboto", sans-serif;
 }
@@ -359,16 +359,18 @@ h5 {
 }
 
 .prix, .select, .prix8, .prix7, .prix6, .prix5, .prix4, .prix3, .prix2, .prix1 {
-  display: inline;
-  position: absolute;
-  left: 280px;
-  top: 434px;
+  display: flex;
+  align-content: space-between;
+  justify-content: flex-end;
+  margin-right: 13px;
   cursor: pointer;
   font-weight: 550;
   font-size: 15px;
+  margin-top: -40px;
+  padding-bottom: 10px;
 }
 .prix:hover, .select:hover, .prix8:hover, .prix7:hover, .prix6:hover, .prix5:hover, .prix4:hover, .prix3:hover, .prix2:hover, .prix1:hover {
-  animation: gliss 0.9s ease-in-out;
+  animation: gliss 1s ease-in-out;
 }
 @keyframes gliss {
   50% {
@@ -413,6 +415,8 @@ h5 {
 }
 
 .select {
+  display: inline;
+  position: absolute;
   background-color: #99E2D0;
   color: #fff;
   font-size: 28px;
@@ -420,7 +424,7 @@ h5 {
   border-radius: 0 20% 20% 0;
   opacity: 0;
   cursor: pointer;
-  top: 393px;
+  top: 435px;
   left: 247px;
 }
 .select:hover {
