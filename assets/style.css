@@ -72,7 +72,7 @@ h3 {
 }
 
 .btn1 {
-  margin: 10% 25% 10% 25%;
+  margin: 12% 25% 10% 25%;
   text-align: center;
 }
 
@@ -158,7 +158,7 @@ h2 {
 
 h4 {
   font-weight: 450;
-  font-size: 1.1em;
+  font-size: 14px;
   color: black;
   color: #fff;
   margin: 6px 10px 4px 2.5px;
@@ -226,7 +226,7 @@ h4 {
 }
 
 footer {
-  background-color: rgba(0, 0, 0, 0.719);
+  background-color: rgba(0, 0, 0, 0.786);
 }
 
 .footer {
@@ -238,11 +238,12 @@ footer {
   align-items: center;
   color: #fff;
   font-family: "Roboto", sans-serif;
+  font-size: 14px;
 }
 
 .proposition--1 {
   text-decoration: transparent;
-  margin: -1px 1px 6px 6px;
+  margin: -2px 0px 0px 1px;
   color: #fff;
 }
 
@@ -255,7 +256,7 @@ footer {
 h1 {
   color: #fff;
   font-family: "Shrikhand", sans-serif;
-  font-size: 24px;
+  font-size: 23px;
   font-weight: 200;
 }
 
@@ -285,6 +286,7 @@ h1 {
 .headerlogo {
   text-align: center;
   margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 #marge {
@@ -310,6 +312,7 @@ h5 {
   border-radius: 37px 37px 0px 0px;
   margin-top: -42px;
   width: 100%;
+  height: 1060px;
 }
 
 .heart8 {
@@ -334,7 +337,7 @@ h5 {
 
 .plan__menu {
   background-color: #fff;
-  width: 96%;
+  width: 93%;
   margin: auto;
   border-radius: 12px 12px;
   font-family: "Roboto", sans-serif;
@@ -354,14 +357,16 @@ h5 {
   padding-bottom: 9px;
 }
 
-.prix, .prix8, .prix7, .prix6, .prix5, .prix4, .prix3, .prix2, .prix1 {
+.prix, .select, .prix8, .prix7, .prix6, .prix5, .prix4, .prix3, .prix2, .prix1 {
   display: inline;
   position: absolute;
-  left: 281px;
-  top: 431px;
+  left: 280px;
+  top: 437px;
   cursor: pointer;
+  font-weight: 550;
+  font-size: 15px;
 }
-.prix:hover, .prix8:hover, .prix7:hover, .prix6:hover, .prix5:hover, .prix4:hover, .prix3:hover, .prix2:hover, .prix1:hover {
+.prix:hover, .select:hover, .prix8:hover, .prix7:hover, .prix6:hover, .prix5:hover, .prix4:hover, .prix3:hover, .prix2:hover, .prix1:hover {
   animation: gliss 0.9s ease-in-out;
 }
 @keyframes gliss {
@@ -375,35 +380,50 @@ h5 {
 }
 
 .prix1 {
-  top: 502px;
+  top: 512px;
 }
 
 .prix2 {
-  top: 578px;
+  top: 588px;
 }
 
 .prix3 {
-  top: 697px;
+  top: 705px;
 }
 
 .prix4 {
-  top: 772px;
+  top: 780px;
 }
 
 .prix5 {
-  top: 848px;
+  top: 855px;
 }
 
 .prix6 {
-  top: 967px;
+  top: 977px;
 }
 
 .prix7 {
-  top: 1042px;
+  top: 1052px;
 }
 
 .prix8 {
-  top: 1114px;
+  top: 1126px;
+}
+
+.select {
+  background-color: #99E2D0;
+  color: #fff;
+  font-size: 24px;
+  padding: 17px;
+  border-radius: 0 20% 20% 0;
+  opacity: 0;
+  cursor: pointer;
+  top: 402px;
+  left: 259px;
+}
+.select:hover {
+  opacity: 1;
 }
 
 .margin {
