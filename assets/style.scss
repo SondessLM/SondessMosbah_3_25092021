@@ -1,5 +1,6 @@
 @import url(assets\utils\responsive.scss);
 @import url(assets\layout\nav.scss);
+@import url(assets\base\base.scss);
 
 $colour-primary: #9356DC;
 $colour-secondary: #FF79DA;
@@ -13,8 +14,13 @@ $colour-shadow:#dedada;
 
 
     
-
-
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin:auto;
+    font-family: 'Roboto', sans-serif;
+}
 
 
 p
@@ -32,13 +38,7 @@ p
 
 
 
-body{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin:auto;
-    font-family: 'Roboto', sans-serif;
-}
+
 .position 
 
 {
@@ -62,6 +62,7 @@ body{
  box-shadow: 0px 3px 3px #73737338 inset;
  font-weight: 500;
  color: rgba(0, 0, 0, 0.61);
+ 
 }
 
 
@@ -245,7 +246,7 @@ h4
 	 &:hover
     {
        opacity: 1;
-       color: #9356DC;
+       color:#ca60c1;
     }
   }
    
@@ -478,7 +479,7 @@ width: 14%;
        
      &:hover
       {
-      animation: gliss 1s ease-in-out;    
+      animation: gliss .6s ease-in-out;    
        
       }
     @keyframes gliss
@@ -568,13 +569,46 @@ margin-bottom: 5px;
 
 .fonctionnement
 {
-width: 50%;
+width: 49.5%;
 position: absolute;
-right: -23px;
-top: 38px;
+right: -1px;
+top: 71px;
+background-color: #f6f6f6;
+height:344px;
+border-radius: 20px;
 }
 .position
 {
-    width: 50%;
+    width: 49.5%;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+.form
+{
+    border-radius: 20px 20px 0 0
+}
+.form1
+{
+    
+    display: inline-flex;
+	justify-content: center;
+	text-align: center;
+	width: 97%;
+	background-color: $colour-grey;
+	box-shadow: 0px 3px 3px #73737338 inset;
+	font-weight: 500;
+	color: rgba(0, 0, 0, 0.61);
+    font-size: 20px;
+    color: black;
+    margin: 0.5px 0px 1px 0px;
+    padding: 15px 0px 10px 11px;
+    border-radius:20px 20px 0 0;
+
+}
+.nav
+{
+    background-color: $colour-white;
+    margin-right: 29px;
+    margin-left: 37px;;
 }
 }
