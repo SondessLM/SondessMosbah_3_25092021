@@ -1,7 +1,4 @@
 @charset "UTF-8";
-@import url(assetsutilsresponsive.scss);
-@import url(assetslayoutnav.scss);
-@import url(assetsºseºse.scss);
 body {
   display: flex;
   flex-direction: column;
@@ -439,9 +436,9 @@ h5 {
 @media only screen and (min-width: 768px) {
   /*grand ecran et tablette*/
   .fonctionnement {
-    width: 49.5%;
+    width: 49%;
     position: absolute;
-    right: -1px;
+    right: 8px;
     top: 71px;
     background-color: #f6f6f6;
     height: 344px;
@@ -449,7 +446,7 @@ h5 {
   }
 
   .position {
-    width: 49.5%;
+    width: 49%;
     border-radius: 20px;
     margin-left: 5px;
   }
@@ -478,6 +475,133 @@ h5 {
     background-color: #fff;
     margin-right: 29px;
     margin-left: 37px;
+  }
+
+  .restaurant {
+    background-color: #f6f6f6;
+    padding: 1px;
+    margin-top: 1rem;
+    width: 98%;
+    border-radius: 20px;
+    margin-left: 4px;
+    height: 658px;
+    margin-bottom: 1rem;
+  }
+
+  .restaurant-affiche {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+    margin-right: 20px;
+  }
+
+  .restaurant-couverture {
+    background-color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 345px;
+  }
+
+  .heart, .heart2, .heart3, .heart4, .heart5, .heart6, .heart7, .heart8, .heart9, .heart1 {
+    right: 27rem;
+    top: 47rem;
+  }
+
+  .heart2, .heart3 {
+    right: 3rem;
+    top: 47rem;
+  }
+
+  .heart4, .heart5 {
+    right: 27rem;
+    top: 64rem;
+  }
+
+  .heart6, .heart7 {
+    right: 3rem;
+    top: 64rem;
+  }
+
+  .nouveau, .nouveau1 {
+    top: 576px;
+    right: 430px;
+  }
+
+  .nouveau1 {
+    right: 55px;
+  }
+
+  footer {
+    width: 98%;
+    border-radius: 20px;
+    margin-left: 4px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .form1 {
+    width: 97.5%;
+  }
+
+  .fonctionnement {
+    width: 48%;
+    right: 19px;
+  }
+
+  .restaurant-couverture {
+    width: 462px;
+  }
+
+  .heart, .heart2, .heart3, .heart6, .heart7, .heart8, .heart9, .heart1, .heart4, .heart5 {
+    right: 34rem;
+  }
+
+  .heart2, .heart3, .heart6, .heart7 {
+    right: 3rem;
+  }
+
+  .nouveau, .nouveau1 {
+    right: 551px;
+  }
+
+  .nouveau1 {
+    right: 56px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .form1 {
+    width: 98.5%;
+  }
+
+  .restaurant-couverture {
+    width: 674px;
+  }
+
+  .heart, .heart2, .heart3, .heart6, .heart7, .heart8, .heart9, .heart1, .heart4, .heart5 {
+    right: 48rem;
+  }
+
+  .heart2, .heart3, .heart6, .heart7 {
+    right: 4rem;
+  }
+
+  .nouveau, .nouveau1 {
+    right: 756px;
+  }
+
+  .nouveau1 {
+    right: 63px;
   }
 }
 
