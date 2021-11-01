@@ -360,7 +360,7 @@ h5 {
   text-overflow: ellipsis;
 }
 
-.prix, .select, .prix8, .prix7, .prix6, .prix5, .prix4, .prix3, .prix2, .prix1 {
+.prix, .select, .select1, .prix8, .prix7, .prix6, .prix5, .prix4, .prix3, .prix2, .prix1 {
   display: flex;
   align-content: space-between;
   justify-content: flex-end;
@@ -371,15 +371,18 @@ h5 {
   margin-top: -40px;
   padding-bottom: 10px;
 }
-.prix:hover, .select:hover, .prix8:hover, .prix7:hover, .prix6:hover, .prix5:hover, .prix4:hover, .prix3:hover, .prix2:hover, .prix1:hover {
+.prix:hover, .select:hover, .select1:hover, .prix8:hover, .prix7:hover, .prix6:hover, .prix5:hover, .prix4:hover, .prix3:hover, .prix2:hover, .prix1:hover {
   animation: gliss 0.6s ease-in-out;
 }
 @keyframes gliss {
+  0% {
+    transform: translate(0px);
+  }
   50% {
-    transform: translateX(-60px);
+    transform: translateX(-50px);
   }
   100% {
-    transform: translateX(1px);
+    transform: translateX(-100px);
     opacity: 0;
   }
 }
@@ -416,21 +419,26 @@ h5 {
   top: 1158px;
 }
 
-.select {
+.select, .select1 {
   display: inline;
   position: absolute;
   background-color: #99E2D0;
   color: #fff;
-  font-size: 28px;
+  font-size: 30px;
   padding: 17px;
   border-radius: 0 20% 20% 0;
   opacity: 0;
   cursor: pointer;
-  top: 435px;
-  left: 247px;
+  top: 433px;
+  left: 245px;
 }
-.select:hover {
+.select:hover, .select1:hover {
   opacity: 1;
+  animation: gliss 0.6s ease-in-out;
+}
+
+.select1 {
+  top: 515px;
 }
 
 .margin {
@@ -657,22 +665,18 @@ h5 {
     margin-left: 18px;
   }
 }
-@media (max-width: 1225) and (min-width: 1147px) {
-  .restaurant-affiche {
-    margin-right: 8px;
-  }
-
+@media only screen and (min-width: 1147px) {
   .restaurant-couverture {
-    width: 555px;
+    width: 472px;
     margin: 24px auto auto 2px;
   }
 
   .heart, .heart2, .heart3, .heart6, .heart7, .heart8, .heart9, .heart1, .heart4, .heart5 {
-    right: 41rem;
+    right: 35rem;
   }
 
   .heart2, .heart3, .heart6, .heart7 {
-    right: 7rem;
+    right: 3rem;
   }
 
   .nouveau, .nouveau1 {
