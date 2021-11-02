@@ -537,3 +537,349 @@ border-radius: 20px;
       margin: 3% 25% 10% 25%;
     }
   }
+  @media (max-width:824px) and (min-width:809px)
+{
+  .restaurant-affiche
+    {margin-right:8px;}
+
+  .restaurant-couverture
+    {
+            margin: 24px auto auto 2px;
+        
+    }
+ .restaurant-couverture 
+         {width: 374px;}
+}
+@media (max-width:920px) and (min-width:825px){
+    
+.restaurant-affiche
+    {margin-right:8px;}
+
+  .restaurant-couverture
+    {
+            margin: 24px auto auto 2px;
+        
+    }
+ .restaurant-couverture 
+         {width: 397px;}
+.heart , .heart1  ,  .heart4 , .heart5
+         {
+            
+            right: 32rem;}
+.heart2 , .heart3, .heart4 , .heart5
+{
+    right: 4rem;
+}            
+
+.nouveau
+{right: 493px;}
+.nouveau1
+{ right:72px;}
+}
+@media (max-width:1024px) and (min-width:921px){
+    
+.restaurant-affiche
+        {margin-right:8px;}
+    
+.restaurant-couverture
+ {width: 445px;
+ margin: 24px auto auto 2px;
+ }
+            
+.heart , .heart1  ,  .heart4 , .heart5
+{ right: 35rem;}
+.heart2 , .heart3, .heart6, .heart7
+{ right: 5rem; }  
+.heart8 , .heart9
+{right:10rem;}        
+.nouveau
+    {right: 551px;}
+
+.nouveau1
+    { right:72px;}
+    /*responsive menus*/
+    .plan--menu {
+      margin-right: -62px;
+      margin-left: 18px;
+  }
+
+} 
+@media only screen and (min-width: 1147px)
+{
+ 
+.restaurant-couverture
+{
+    width: 472px;
+    margin: 24px auto auto 2px;
+}
+.heart , .heart1 , .heart4 , .heart5
+   {
+           
+        right: 35rem;
+   }
+.heart2 , .heart3 , .heart6 ,.heart7
+    {
+     right: 3rem;
+    }
+.nouveau
+   {
+       right:645px;
+   }
+.nouveau1
+   {
+       right: 72px;
+   }
+
+    
+   
+/*responsive des menu*/
+ 
+
+      h5 {
+        
+        margin: 24px 12px 12px 52px;}
+       
+    .plan {
+    
+        
+        height: 593px;
+        
+        
+    }
+    .heart8, .heart9 {
+        right: 4rem;
+        top: 19rem;
+    }
+    .plan--menu
+    {
+            
+            margin-right: 45px;
+            margin-left: 62px;
+    
+    }
+   .plan__menu
+   {
+    
+        width: 94%;
+        margin: 12px 92px 14px 20px;
+    
+   }
+   .btn1{
+   margin: 7% 25% 10% 25%;}
+}
+@media only screen and (min-width:1226px) {
+    
+ .restaurant-affiche
+    {margin-right:8px;} 
+
+  .restaurant-couverture
+   {
+     width: 594px;
+     margin: 24px auto auto 2px;
+    
+      }
+      .heart , .heart1 , .heart4 , .heart5
+      {
+              
+           right: 50rem;
+      }
+   .heart2 , .heart3 , .heart6 ,.heart7
+   {
+        right: 6rem;
+   }
+      .nouveau
+      {
+          right:800px;
+      }
+      .nouveau1
+      {
+          right: 93px;
+      }  
+}
+@media only screen and (min-width: 1444px) {
+    .form1 {
+      width: 99%;
+    }
+  
+    .restaurant-couverture {
+      width: 701px;
+    }
+
+    .heart, .heart1, .heart4, .heart5 {
+      right: 50rem;
+    }
+  
+    .heart2, .heart3, .heart6, .heart7 {
+      right: 4rem;
+    }
+  
+    .nouveau {
+      right: 796px;
+    }
+  
+   
+  
+    /*responsive des menu*/
+    h5 {
+      margin: 24px 12px 12px 52px;
+    }
+  
+    .plan {
+      height: 593px;
+    }
+  
+    .heart8, .heart9 {
+      right: 4rem;
+      top: 19rem;
+    }
+  
+    .plan--menu {
+      margin-right: 45px;
+      margin-left: 62px;
+    }
+  
+    .plan__menu {
+      width: 94%;
+      margin: 12px 92px 14px 20px;
+    }
+  
+    .btn1 {
+      margin: 7% 25% 10% 25%;
+    }
+  }
+@media only screen and (min-width: 1526px) {
+    .restaurant-couverture {
+        width: 721px;
+      }
+       .heart, .heart1, .heart4, .heart5 {
+        right: 54rem;
+      }
+      .heart2, .heart3, .heart6, .heart7 {
+        right: 6rem;
+      }
+      .nouveau {
+        right: 855px;
+      }
+}
+@media only screen and (min-width: 1618px) {
+    .restaurant-couverture {
+        width: 745px;
+      }
+      .heart, .heart1, .heart4, .heart5 {
+        right: 66rem;
+
+      }
+      .heart2, .heart3, .heart6, .heart7 {
+        right: 6rem;
+      }
+      .nouveau {
+        right: 960px;
+      }
+      .nouveau1{
+          right: 85px;
+      }
+}  
+  @media only screen and (min-width: 2560px) {
+    .position {
+      width: 44%;
+      margin-left: 35px;
+    }
+  
+    .fonctionnement {
+      width: 44%;
+      right: 50px;
+    }
+  
+    .form1 {
+      width: 99%;
+    }
+  
+    .restaurant {
+      width: 97%;
+      margin-left: 34px;
+      height: 1192px;
+    }
+  
+    .restaurant-affiche {
+      justify-content: space-evenly;
+      margin-right: 20px;
+    }
+  
+    .restaurant-couverture {
+      width: 879px;
+    }
+  
+    .restaurant-img {
+      height: 407px;
+    }
+  
+    .heart, .heart1, .heart8, .heart9 {
+      top: 62rem;
+      right: 93rem;
+    }
+  
+    .heart4, .heart5 {
+      top: 94rem;
+      right: 93rem;
+    }
+  
+    .heart2, .heart3, .heart6, .heart7 {
+      top: 62rem;
+      right: 22rem;
+    }
+  
+    .heart6, .heart7 {
+      top: 94rem;
+      right: 22rem;
+    }
+  
+    .nouveau, .nouveau1 {
+      right: 1434px;
+    }
+  
+    .nouveau1 {
+      right: 307px;
+    }
+  
+    footer {
+      width: 98%;
+      margin-left: 25px;
+    }
+  
+    /*responsive des menus*/
+    .menu__foto {
+      height: 540px;
+    }
+  
+    .heart8, .heart9 {
+      top: 38rem;
+      right: 5rem;
+    }
+  
+    .plan__menu {
+      width: 98%;
+      margin: 12px 432px 14px 32px;
+    }
+  
+    .btn1 {
+      margin: 3% 25% 10% 25%;
+    }
+  }
+  /*responsive menus*/
+
+  @media only screen and (min-width:1440px)
+  {
+ .plan__menu
+ {
+   width: 100%;
+   margin: 12px 92px 14px 20px;
+ }
+  .heart8, .heart9
+  {right:4rem;}
+  
+  .plan--menu {
+     
+      margin-right: -66px;
+      margin-left: 99px;
+      }
+  }

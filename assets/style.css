@@ -629,7 +629,7 @@ h5 {
     right: 72px;
   }
 }
-@media (max-width: 1024px) and (min-width: 921px) {
+@media (max-width: 1025px) and (min-width: 921px) {
   .restaurant-affiche {
     margin-right: 8px;
   }
@@ -665,18 +665,18 @@ h5 {
     margin-left: 18px;
   }
 }
-@media only screen and (min-width: 1147px) {
+@media (max-width: 1111px) and (min-width: 1024px) {
   .restaurant-couverture {
-    width: 472px;
+    width: 486px;
     margin: 24px auto auto 2px;
   }
 
   .heart, .heart2, .heart3, .heart6, .heart7, .heart8, .heart9, .heart1, .heart4, .heart5 {
-    right: 35rem;
+    right: 41rem;
   }
 
   .heart2, .heart3, .heart6, .heart7 {
-    right: 3rem;
+    right: 7rem;
   }
 
   .nouveau, .nouveau1 {
@@ -685,6 +685,50 @@ h5 {
 
   .nouveau1 {
     right: 72px;
+  }
+}
+@media (max-width: 1161px) and (min-width: 1110px) {
+  .restaurant-couverture {
+    width: 486px;
+    margin: 24px auto auto 2px;
+  }
+
+  .heart, .heart2, .heart3, .heart6, .heart7, .heart8, .heart9, .heart1, .heart4, .heart5 {
+    right: 41rem;
+  }
+
+  .heart2, .heart3, .heart6, .heart7 {
+    right: 7rem;
+  }
+
+  .nouveau, .nouveau1 {
+    right: 645px;
+  }
+
+  .nouveau1 {
+    right: 79px;
+  }
+}
+@media only screen and (min-width: 1170px) {
+  .restaurant-couverture {
+    width: 472px;
+    margin: 24px auto auto 2px;
+  }
+
+  .heart, .heart2, .heart3, .heart6, .heart7, .heart8, .heart9, .heart1, .heart4, .heart5 {
+    right: 41rem;
+  }
+
+  .heart2, .heart3, .heart6, .heart7 {
+    right: 7rem;
+  }
+
+  .nouveau, .nouveau1 {
+    right: 650px;
+  }
+
+  .nouveau1 {
+    right: 95px;
   }
 
   /*responsive des menu*/
@@ -715,18 +759,18 @@ h5 {
     margin: 7% 25% 10% 25%;
   }
 }
-@media only screen and (min-width: 1226px) {
+@media only screen and (min-width: 1202px) {
   .restaurant-affiche {
     margin-right: 8px;
   }
 
   .restaurant-couverture {
-    width: 594px;
+    width: 559px;
     margin: 24px auto auto 2px;
   }
 
   .heart, .heart2, .heart3, .heart6, .heart7, .heart8, .heart9, .heart1, .heart4, .heart5 {
-    right: 50rem;
+    right: 43rem;
   }
 
   .heart2, .heart3, .heart6, .heart7 {
@@ -734,7 +778,7 @@ h5 {
   }
 
   .nouveau, .nouveau1 {
-    right: 800px;
+    right: 662px;
   }
 
   .nouveau1 {
@@ -747,19 +791,23 @@ h5 {
   }
 
   .restaurant-couverture {
-    width: 701px;
+    width: 624px;
   }
 
   .heart, .heart2, .heart3, .heart6, .heart7, .heart8, .heart9, .heart1, .heart4, .heart5 {
-    right: 50rem;
+    right: 52rem;
   }
 
   .heart2, .heart3, .heart6, .heart7 {
-    right: 4rem;
+    right: 8rem;
   }
 
   .nouveau, .nouveau1 {
     right: 796px;
+  }
+
+  .nouveau1 {
+    right: 122px;
   }
 
   /*responsive des menu*/
