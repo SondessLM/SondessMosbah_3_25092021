@@ -447,6 +447,7 @@ width: 14%;
     margin: auto auto 14px auto;
     border-radius: 12px 12px;
     font-family: 'Roboto',sans-serif;
+    position: relative;
 }
 .titre
 {
@@ -558,7 +559,7 @@ width: 14%;
     opacity: 0;
     cursor: pointer;
     top:433px;
-    left:245px;
+    left:80%;
     
     
     &:hover
@@ -572,9 +573,42 @@ width: 14%;
    @extend .select;
    top:515px;
  }
-
-
-
+ .select2
+ {
+   @extend .select;
+   top:595px;
+ }
+ .select3
+ {
+   @extend .select;
+   top:722px;
+ }
+ 
+ .select4
+ {
+   @extend .select;
+   top:803px;
+ }
+ .select5
+ {
+   @extend .select;
+   top:884px;
+ }
+ .select6
+ {
+   @extend .select;
+   top:1009px;
+ }
+ .select7
+ {
+   @extend .select;
+   top:1091px;
+ }
+ .select8
+ {
+   @extend .select;
+   top:1171px;
+ }
 .margin
 {
 margin-bottom: 5px;
@@ -855,18 +889,18 @@ border-radius: 20px;
 }
 
 
-@media only screen and (min-width: 1170px)
+@media only screen and (min-width: 1179px)
 {
  
 .restaurant-couverture
 {
-    width: 472px;
+    width: 563px;
     margin: 24px auto auto 2px;
 }
 .heart , .heart1 , .heart4 , .heart5
    {
            
-        right: 41rem;
+        right: 40rem;
    }
 .heart2 , .heart3 , .heart6 ,.heart7
     {
@@ -874,7 +908,7 @@ border-radius: 20px;
     }
 .nouveau
    {
-       right:650px;
+       right:632px;
    }
 .nouveau1
    {
@@ -918,14 +952,14 @@ border-radius: 20px;
    .btn1{
    margin: 7% 25% 10% 25%;}
 }
-@media only screen and (min-width:1202px) {
+@media only screen and (min-width:1244px) {
     
  .restaurant-affiche
     {margin-right:8px;} 
 
   .restaurant-couverture
    {
-     width: 559px;
+     width: 601px;
      margin: 24px auto auto 2px;
     
       }
@@ -947,13 +981,13 @@ border-radius: 20px;
           right: 93px;
       }  
 }
-@media only screen and (min-width: 1444px) {
+@media only screen and (min-width: 1262px) {
     .form1 {
       width: 99%;
     }
   
     .restaurant-couverture {
-      width: 624px;
+      width: 600px;
     }
 
     .heart, .heart1, .heart4, .heart5 {
@@ -1002,18 +1036,22 @@ border-radius: 20px;
       margin: 7% 25% 10% 25%;
     }
   }
-@media only screen and (min-width: 1526px) {
+@media only screen and (min-width: 1440px) {
     .restaurant-couverture {
-        width: 721px;
+        width: 610px;
       }
        .heart, .heart1, .heart4, .heart5 {
         right: 54rem;
       }
       .heart2, .heart3, .heart6, .heart7 {
-        right: 6rem;
+        right: 8rem;
       }
       .nouveau {
         right: 855px;
+      }
+      .nouveau1
+      {
+        right: 111px;
       }
 }
 @media only screen and (min-width: 1618px) {
@@ -1025,13 +1063,13 @@ border-radius: 20px;
 
       }
       .heart2, .heart3, .heart6, .heart7 {
-        right: 6rem;
+        right: 8rem;
       }
       .nouveau {
         right: 960px;
       }
       .nouveau1{
-          right: 85px;
+          right: 111px;
       }
 }  
   @media only screen and (min-width: 2560px) {

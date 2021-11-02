@@ -339,6 +339,7 @@ h5 {
   margin: auto auto 14px auto;
   border-radius: 12px 12px;
   font-family: "Roboto", sans-serif;
+  position: relative;
 }
 
 .titre, .details {
@@ -360,7 +361,7 @@ h5 {
   text-overflow: ellipsis;
 }
 
-.prix, .select, .select1, .prix8, .prix7, .prix6, .prix5, .prix4, .prix3, .prix2, .prix1 {
+.prix, .select, .select8, .select7, .select6, .select5, .select4, .select3, .select2, .select1, .prix8, .prix7, .prix6, .prix5, .prix4, .prix3, .prix2, .prix1 {
   display: flex;
   align-content: space-between;
   justify-content: flex-end;
@@ -371,7 +372,7 @@ h5 {
   margin-top: -40px;
   padding-bottom: 10px;
 }
-.prix:hover, .select:hover, .select1:hover, .prix8:hover, .prix7:hover, .prix6:hover, .prix5:hover, .prix4:hover, .prix3:hover, .prix2:hover, .prix1:hover {
+.prix:hover, .select:hover, .select8:hover, .select7:hover, .select6:hover, .select5:hover, .select4:hover, .select3:hover, .select2:hover, .select1:hover, .prix8:hover, .prix7:hover, .prix6:hover, .prix5:hover, .prix4:hover, .prix3:hover, .prix2:hover, .prix1:hover {
   animation: gliss 0.6s ease-in-out;
 }
 @keyframes gliss {
@@ -419,7 +420,7 @@ h5 {
   top: 1158px;
 }
 
-.select, .select1 {
+.select, .select8, .select7, .select6, .select5, .select4, .select3, .select2, .select1 {
   display: inline;
   position: absolute;
   background-color: #99E2D0;
@@ -430,15 +431,43 @@ h5 {
   opacity: 0;
   cursor: pointer;
   top: 433px;
-  left: 245px;
+  left: 80%;
 }
-.select:hover, .select1:hover {
+.select:hover, .select8:hover, .select7:hover, .select6:hover, .select5:hover, .select4:hover, .select3:hover, .select2:hover, .select1:hover {
   opacity: 1;
   animation: gliss 0.6s ease-in-out;
 }
 
 .select1 {
   top: 515px;
+}
+
+.select2 {
+  top: 595px;
+}
+
+.select3 {
+  top: 722px;
+}
+
+.select4 {
+  top: 803px;
+}
+
+.select5 {
+  top: 884px;
+}
+
+.select6 {
+  top: 1009px;
+}
+
+.select7 {
+  top: 1091px;
+}
+
+.select8 {
+  top: 1171px;
 }
 
 .margin {
@@ -709,14 +738,14 @@ h5 {
     right: 79px;
   }
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 1179px) {
   .restaurant-couverture {
-    width: 472px;
+    width: 563px;
     margin: 24px auto auto 2px;
   }
 
   .heart, .heart2, .heart3, .heart6, .heart7, .heart8, .heart9, .heart1, .heart4, .heart5 {
-    right: 41rem;
+    right: 40rem;
   }
 
   .heart2, .heart3, .heart6, .heart7 {
@@ -724,7 +753,7 @@ h5 {
   }
 
   .nouveau, .nouveau1 {
-    right: 650px;
+    right: 632px;
   }
 
   .nouveau1 {
@@ -759,13 +788,13 @@ h5 {
     margin: 7% 25% 10% 25%;
   }
 }
-@media only screen and (min-width: 1202px) {
+@media only screen and (min-width: 1244px) {
   .restaurant-affiche {
     margin-right: 8px;
   }
 
   .restaurant-couverture {
-    width: 559px;
+    width: 601px;
     margin: 24px auto auto 2px;
   }
 
@@ -785,13 +814,13 @@ h5 {
     right: 93px;
   }
 }
-@media only screen and (min-width: 1444px) {
+@media only screen and (min-width: 1262px) {
   .form1 {
     width: 99%;
   }
 
   .restaurant-couverture {
-    width: 624px;
+    width: 600px;
   }
 
   .heart, .heart2, .heart3, .heart6, .heart7, .heart8, .heart9, .heart1, .heart4, .heart5 {
@@ -838,9 +867,9 @@ h5 {
     margin: 7% 25% 10% 25%;
   }
 }
-@media only screen and (min-width: 1526px) {
+@media only screen and (min-width: 1440px) {
   .restaurant-couverture {
-    width: 721px;
+    width: 610px;
   }
 
   .heart, .heart2, .heart3, .heart6, .heart7, .heart8, .heart9, .heart1, .heart4, .heart5 {
@@ -848,11 +877,15 @@ h5 {
   }
 
   .heart2, .heart3, .heart6, .heart7 {
-    right: 6rem;
+    right: 8rem;
   }
 
   .nouveau, .nouveau1 {
     right: 855px;
+  }
+
+  .nouveau1 {
+    right: 111px;
   }
 }
 @media only screen and (min-width: 1618px) {
@@ -865,7 +898,7 @@ h5 {
   }
 
   .heart2, .heart3, .heart6, .heart7 {
-    right: 6rem;
+    right: 8rem;
   }
 
   .nouveau, .nouveau1 {
@@ -873,7 +906,7 @@ h5 {
   }
 
   .nouveau1 {
-    right: 85px;
+    right: 111px;
   }
 }
 @media only screen and (min-width: 2560px) {
