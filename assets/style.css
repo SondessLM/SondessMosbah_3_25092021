@@ -716,7 +716,7 @@ h5 {
     right: 72px;
   }
 }
-@media (max-width: 1161px) and (min-width: 1110px) {
+@media (max-width: 1168px) and (min-width: 1110px) {
   .restaurant-couverture {
     width: 486px;
     margin: 24px auto auto 2px;
@@ -738,68 +738,18 @@ h5 {
     right: 79px;
   }
 }
-@media only screen and (min-width: 1179px) {
-  .restaurant-couverture {
-    width: 563px;
-    margin: 24px auto auto 2px;
-  }
-
-  .heart, .heart2, .heart3, .heart6, .heart7, .heart8, .heart9, .heart1, .heart4, .heart5 {
-    right: 40rem;
-  }
-
-  .heart2, .heart3, .heart6, .heart7 {
-    right: 7rem;
-  }
-
-  .nouveau, .nouveau1 {
-    right: 632px;
-  }
-
-  .nouveau1 {
-    right: 95px;
-  }
-
-  /*responsive des menu*/
-  h5 {
-    margin: 24px 12px 12px 52px;
-  }
-
-  .plan {
-    height: 593px;
-  }
-
-  .heart8, .heart9 {
-    right: 4rem;
-    top: 19rem;
-  }
-
-  .plan--menu {
-    margin-right: 45px;
-    margin-left: 62px;
-  }
-
-  .plan__menu {
-    width: 94%;
-    margin: 12px 92px 14px 20px;
-  }
-
-  .btn1 {
-    margin: 7% 25% 10% 25%;
-  }
-}
-@media only screen and (min-width: 1244px) {
+@media (max-width: 1261px) and (min-width: 1169px) {
   .restaurant-affiche {
     margin-right: 8px;
   }
 
   .restaurant-couverture {
-    width: 601px;
+    width: 545px;
     margin: 24px auto auto 2px;
   }
 
   .heart, .heart2, .heart3, .heart6, .heart7, .heart8, .heart9, .heart1, .heart4, .heart5 {
-    right: 43rem;
+    right: 45rem;
   }
 
   .heart2, .heart3, .heart6, .heart7 {
@@ -807,20 +757,20 @@ h5 {
   }
 
   .nouveau, .nouveau1 {
-    right: 662px;
+    right: 690px;
   }
 
   .nouveau1 {
     right: 93px;
   }
 }
-@media only screen and (min-width: 1262px) {
+@media only screen and (min-width: 1261px) {
   .form1 {
     width: 99%;
   }
 
   .restaurant-couverture {
-    width: 600px;
+    width: 556px;
   }
 
   .heart, .heart2, .heart3, .heart6, .heart7, .heart8, .heart9, .heart1, .heart4, .heart5 {
@@ -867,9 +817,9 @@ h5 {
     margin: 7% 25% 10% 25%;
   }
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1429px) {
   .restaurant-couverture {
-    width: 610px;
+    width: 669px;
   }
 
   .heart, .heart2, .heart3, .heart6, .heart7, .heart8, .heart9, .heart1, .heart4, .heart5 {
@@ -886,6 +836,20 @@ h5 {
 
   .nouveau1 {
     right: 111px;
+  }
+
+  .plan__menu {
+    width: 100%;
+    margin: 12px 92px 14px 20px;
+  }
+
+  .heart8, .heart9 {
+    right: 4rem;
+  }
+
+  .plan--menu {
+    margin-right: -66px;
+    margin-left: 99px;
   }
 }
 @media only screen and (min-width: 1618px) {
@@ -993,22 +957,6 @@ h5 {
 
   .btn1 {
     margin: 3% 25% 10% 25%;
-  }
-}
-/*responsive menus*/
-@media only screen and (min-width: 1440px) {
-  .plan__menu {
-    width: 100%;
-    margin: 12px 92px 14px 20px;
-  }
-
-  .heart8, .heart9 {
-    right: 4rem;
-  }
-
-  .plan--menu {
-    margin-right: -66px;
-    margin-left: 99px;
   }
 }
 
