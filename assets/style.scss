@@ -620,9 +620,9 @@ margin-bottom: 5px;
 
 .fonctionnement
 {
-width: 49%;
+width: 48%;
 position: absolute;
-right: 8px;
+right: 11px;
 top: 71px;
 background-color: #f6f6f6;
 height:344px;
@@ -630,7 +630,7 @@ border-radius: 20px;
 }
 .position
 {
-    width: 49%;
+    width: 48%;
     border-radius: 20px;
     margin-left: 5px;
 }
@@ -837,8 +837,16 @@ border-radius: 20px;
   }
 
 }       
-@media (max-width:1111px) and (min-width:1024px)
+@media (max-width:1075px) and (min-width:1024px)
 {
+.fonctionnement {
+    
+    right: 16px;
+    
+}
+.form1 {
+   width: 98%;
+ }
   .restaurant-couverture
  {width: 486px;
  margin: 24px auto auto 2px;
@@ -846,24 +854,32 @@ border-radius: 20px;
  .heart , .heart1 , .heart4 , .heart5
  {
          
-      right: 41rem;
+      right: 37rem;
  }
 .heart2 , .heart3 , .heart6 ,.heart7
   {
-   right: 7rem;
+   right: 5rem;
   }
  .nouveau
  {
-     right:645px;
+     right:570px;
  }
  .nouveau1
  {
-     right: 72px;
+     right: 56px;
   }
 
 }
-@media (max-width:1168px) and (min-width:1110px)
+@media (max-width:1168px) and (min-width:1074px)
 {
+  .fonctionnement {
+    
+    right: 20px;
+    
+}
+.form1 {
+   width: 98%;
+ }
   .restaurant-couverture
  {width: 486px;
  margin: 24px auto auto 2px;
@@ -891,6 +907,14 @@ border-radius: 20px;
  
 @media (max-width:1261px) and (min-width:1169px)
 {
+  .fonctionnement {
+    
+    right: 23px;
+    
+}
+.form1 {
+   width: 98%;
+ }
  
  .restaurant-affiche
     {margin-right:8px;} 
@@ -925,13 +949,20 @@ border-radius: 20px;
 
 
 
-@media only screen and (min-width: 1261px) {
-  .form1 {
-    width: 99%;
-  }
+@media only screen and (min-width: 1262px) {
+  .fonctionnement {
+    
+    right: 22px;
+    
+}
+.form1 {
+   width: 98%;
+ }
+  
+
 
   .restaurant-couverture {
-    width: 556px;
+    width: 588px;
   }
 
   .heart, .heart1, .heart4, .heart5 {
@@ -980,9 +1011,17 @@ border-radius: 20px;
     margin: 7% 25% 10% 25%;
   }
 }
-@media only screen and (min-width: 1429px) {
+@media only screen and (min-width: 1441px) {
+  .fonctionnement {
+    
+    right: 28px;
+    
+}
+.form1 {
+   width: 98.5%;
+ }
   .restaurant-couverture {
-      width: 669px;
+      width: 588px;
     }
      .heart, .heart1, .heart4, .heart5 {
       right: 54rem;
@@ -1014,12 +1053,21 @@ margin: 12px 92px 14px 20px;
   margin-left: 99px;
   }
 }
-@media only screen and (min-width: 1618px) {
+@media only screen and (min-width: 1528px) {
+
+    .fonctionnement {
+      
+      right: 33px;
+      
+  }
+  .form1 {
+     width: 98.5%;
+   }
   .restaurant-couverture {
-      width: 745px;
+      width: 708px;
     }
     .heart, .heart1, .heart4, .heart5 {
-      right: 66rem;
+      right: 62rem;
 
     }
     .heart2, .heart3, .heart6, .heart7 {
@@ -1032,6 +1080,60 @@ margin: 12px 92px 14px 20px;
         right: 111px;
     }
 }  
+@media only screen and (min-width: 1740px) {
+  .restaurant-couverture {
+      width: 820px;
+    }
+  }
+
+
+ @media only screen and (min-width: 1816px) {
+ .restaurant-couverture {
+          width: 858px;}
+.heart, .heart1, .heart4, .heart5 {
+            right: 66rem;}
+.nouveau{
+         right:1033px;
+       } 
+.heart2, .heart3, .heart6, .heart7 {
+        right: 8rem;}
+.nouveau1{
+          right: 111px;
+      }       
+        
+}   
+@media only screen and (min-width: 1970px) {
+  .fonctionnement {
+    
+    right: 35pxpx;
+    
+}
+.form1 {
+   width: 98.8%;
+ }
+
+   
+   
+
+  .restaurant-couverture {
+    width: 912px;}
+}
+@media only screen and (min-width: 2010px) {
+  .restaurant-couverture {
+           width: 912px;}
+ .heart, .heart1, .heart4, .heart5 {
+             right: 68rem;}
+ .nouveau{
+          right:1048px;
+        } 
+ .heart2, .heart3, .heart6, .heart7 {
+         right: 8rem;}
+ .nouveau1{
+           right: 111px;
+       }       
+         
+ }   
+    
 @media only screen and (min-width: 2560px) {
   .position {
     width: 44%;
