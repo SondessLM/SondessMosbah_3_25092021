@@ -379,9 +379,6 @@ h5 {
   0% {
     transform: translate(0px);
   }
-  50% {
-    transform: translateX(-50px);
-  }
   100% {
     transform: translateX(-100px);
     opacity: 0;
@@ -823,7 +820,7 @@ h5 {
   }
 
   .plan {
-    height: 593px;
+    height: 684px;
   }
 
   .heart8, .heart9 {
@@ -840,7 +837,28 @@ h5 {
     width: 94%;
     margin: 12px 92px 14px 20px;
   }
+  .plan__menu:before {
+    animation: selection 1.2s 0.3s ease-out both, transform 0.3s;
+    transition: all 1.5s;
+  }
+  @keyframes selection {
+    0% {
+      transform: translateY(-50%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
 
+  .btn1 {
+    margin: -12% 8% 7% 65%;
+    padding: 2%;
+  }
+}
+@media only screen and (min-width: 1422px) {
+  /*respnsive menu*/
   .btn1 {
     margin: 7% 25% 10% 25%;
   }
@@ -874,6 +892,7 @@ h5 {
     right: 111px;
   }
 
+  /*responsive menu*/
   .plan__menu {
     width: 100%;
     margin: 12px 92px 14px 20px;
@@ -886,6 +905,10 @@ h5 {
   .plan--menu {
     margin-right: -66px;
     margin-left: 99px;
+  }
+
+  .btn1 {
+    margin: 7% 25% 10% 25%;
   }
 }
 @media only screen and (min-width: 1528px) {
@@ -916,10 +939,26 @@ h5 {
   .nouveau1 {
     right: 111px;
   }
+
+  /*resonsive menu*/
+  .plan--menu {
+    margin-right: 74px;
+    margin-left: 68px;
+  }
+
+  .heart8, .heart9 {
+    right: 5rem;
+  }
 }
 @media only screen and (min-width: 1740px) {
   .restaurant-couverture {
     width: 820px;
+  }
+
+  /*responsive menu*/
+  .plan--menu {
+    margin-right: 145px;
+    margin-left: 68px;
   }
 }
 @media only screen and (min-width: 1816px) {
@@ -942,6 +981,11 @@ h5 {
   .nouveau1 {
     right: 111px;
   }
+
+  /*responsive menu*/
+  .heart8, .heart9 {
+    right: 5rem;
+  }
 }
 @media only screen and (min-width: 1970px) {
   .fonctionnement {
@@ -954,6 +998,12 @@ h5 {
 
   .restaurant-couverture {
     width: 912px;
+  }
+
+  /*responsive menu*/
+  .plan--menu {
+    margin-right: 221px;
+    margin-left: 68px;
   }
 }
 @media only screen and (min-width: 2010px) {
@@ -975,6 +1025,11 @@ h5 {
 
   .nouveau1 {
     right: 111px;
+  }
+
+  /* responsive menu*/
+  .heart8, .heart9 {
+    right: 3rem;
   }
 }
 @media only screen and (min-width: 2560px) {
@@ -1061,6 +1116,11 @@ h5 {
 
   .btn1 {
     margin: 3% 25% 10% 25%;
+  }
+
+  .plan--menu {
+    margin-right: -13px;
+    margin-left: 94px;
   }
 }
 

@@ -494,8 +494,7 @@ width: 14%;
        0% {
            transform: translate(0px);
          } 
-       50% {
-           transform: translateX(-50px);}  
+       
         100% {
             transform: translateX(-100px);
         opacity: 0}     
@@ -989,7 +988,7 @@ border-radius: 20px;
   }
 
   .plan {
-    height: 593px;
+    height: 684px;
   }
 
   .heart8, .heart9 {
@@ -1005,12 +1004,46 @@ border-radius: 20px;
   .plan__menu {
     width: 94%;
     margin: 12px 92px 14px 20px;
+    
+    &:before
+    {
+      
+      animation: selection 1.2s .3s ease-out both,transform .3s;
+      transition: all 1.5s;
+      
+    }
+    
+    @keyframes selection 
+    {
+      0%{   transform: translateY(-50%);
+        opacity: 0;}
+      
+      
+        
+      
+    
+      
+        100%{ transform: translateY(0);
+          opacity: 1;} 
+        
+      
+    
+        }
+      
+    
   }
-
+  .btn1 {
+    margin: -12% 8% 7% 65%;
+    padding: 2%;}
+}
+@media only screen and (min-width: 1422px) {
+  /*respnsive menu*/
   .btn1 {
     margin: 7% 25% 10% 25%;
   }
+  
 }
+
 @media only screen and (min-width: 1441px) {
   .fonctionnement {
     
@@ -1037,7 +1070,7 @@ border-radius: 20px;
       right: 111px;
     }
 
-
+/*responsive menu*/
 
 .plan__menu
 {
@@ -1052,6 +1085,10 @@ margin: 12px 92px 14px 20px;
   margin-right: -66px;
   margin-left: 99px;
   }
+
+.btn1 {
+  margin: 7% 25% 10% 25%;
+}
 }
 @media only screen and (min-width: 1528px) {
 
@@ -1079,12 +1116,28 @@ margin: 12px 92px 14px 20px;
     .nouveau1{
         right: 111px;
     }
+    /*resonsive menu*/
+    .plan--menu {
+      margin-right: 74px;
+     margin-left: 68px;}
+    .heart8 , .heart9
+    {
+    right: 5rem;  
+    }
+  
 }  
+
 @media only screen and (min-width: 1740px) {
   .restaurant-couverture {
       width: 820px;
     }
-  }
+  
+  /*responsive menu*/
+  .plan--menu {
+    margin-right: 145px;
+    margin-left: 68px;
+}
+}
 
 
  @media only screen and (min-width: 1816px) {
@@ -1100,7 +1153,11 @@ margin: 12px 92px 14px 20px;
 .nouveau1{
           right: 111px;
       }       
-        
+ /*responsive menu*/
+ 
+   .heart8,.heart9{
+   right: 5rem;
+ }       
 }   
 @media only screen and (min-width: 1970px) {
   .fonctionnement {
@@ -1112,11 +1169,13 @@ margin: 12px 92px 14px 20px;
    width: 98.8%;
  }
 
-   
-   
-
   .restaurant-couverture {
     width: 912px;}
+/*responsive menu*/
+.plan--menu {
+  margin-right: 221px;
+  margin-left: 68px;
+}
 }
 @media only screen and (min-width: 2010px) {
   .restaurant-couverture {
@@ -1131,7 +1190,11 @@ margin: 12px 92px 14px 20px;
  .nouveau1{
            right: 111px;
        }       
-         
+   /* responsive menu*/
+   .heart8, .heart9
+   {
+     right:3rem;
+   }      
  }   
     
 @media only screen and (min-width: 2560px) {
@@ -1200,23 +1263,26 @@ margin: 12px 92px 14px 20px;
     width: 98%;
     margin-left: 25px;
   }
+/*responsive des menus*/
+.menu__foto {
+  height: 540px;
+}
 
-  /*responsive des menus*/
-  .menu__foto {
-    height: 540px;
-  }
+.heart8, .heart9 {
+  top: 38rem;
+  right: 5rem;
+}
 
-  .heart8, .heart9 {
-    top: 38rem;
-    right: 5rem;
-  }
+.plan__menu {
+  width: 98%;
+  margin: 12px 432px 14px 32px;
+}
 
-  .plan__menu {
-    width: 98%;
-    margin: 12px 432px 14px 32px;
-  }
-
-  .btn1 {
-    margin: 3% 25% 10% 25%;
-  }
+.btn1 {
+  margin: 3% 25% 10% 25%;
+}
+.plan--menu {
+  margin-right: -13px;
+  margin-left: 94px;
+}
 }
