@@ -1005,7 +1005,7 @@ border-radius: 20px;
     width: 94%;
     margin: 12px 92px 14px 20px;
     
-    &:before
+    &:active
     {
       
       animation: selection 1.2s .3s ease-out both,transform .3s;
@@ -1015,27 +1015,32 @@ border-radius: 20px;
     
     @keyframes selection 
     {
-      0%{   transform: translateY(-50%);
-        opacity: 0;}
+      0% {
+       
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+    100% {
       
-      
-        
-      
-    
-      
-        100%{ transform: translateY(0);
-          opacity: 1;} 
-        
-      
+        transform: translateY(0);
+        opacity: 1;
+    }
     
         }
       
     
   }
+  .select2 {
+    margin-inline: -654px;
+    opacity: 1;
+    margin-block: -25px;
+  
+}
   .btn1 {
     margin: -12% 8% 7% 65%;
     padding: 2%;}
 }
+
 @media only screen and (min-width: 1422px) {
   /*respnsive menu*/
   .btn1 {

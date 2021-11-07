@@ -837,7 +837,7 @@ h5 {
     width: 94%;
     margin: 12px 92px 14px 20px;
   }
-  .plan__menu:before {
+  .plan__menu:active {
     animation: selection 1.2s 0.3s ease-out both, transform 0.3s;
     transition: all 1.5s;
   }
@@ -850,6 +850,12 @@ h5 {
       transform: translateY(0);
       opacity: 1;
     }
+  }
+
+  .select2 {
+    margin-inline: -654px;
+    opacity: 1;
+    margin-block: -25px;
   }
 
   .btn1 {
