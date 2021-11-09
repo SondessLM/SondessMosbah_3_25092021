@@ -11,6 +11,60 @@ p {
   color: #000;
 }
 
+h3 {
+  font-weight: 799;
+  font-size: 1.7em;
+  color: black;
+  margin-top: 1.5em;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 1.5em;
+  color: black;
+  margin: 2em 1em 1em 0.5em;
+}
+
+h4 {
+  font-weight: 450;
+  font-size: 14px;
+  color: black;
+  color: #fff;
+  margin: 6px 10px 4px 2.5px;
+}
+
+h1 {
+  color: #fff;
+  font-family: "Shrikhand", sans-serif;
+  font-size: 23px;
+  font-weight: 200;
+}
+
+/*cartes menus*/
+h5 {
+  font-size: 1.6rem;
+  margin: 24px 12px 12px 16px;
+  font-family: "shrikhand", sans-serif;
+  text-align: left;
+}
+
+.btn, .btn1 {
+  border-radius: 2rem;
+  border: 0;
+  box-shadow: 3px 3px 3px #eaeaea;
+  color: #fff;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  cursor: pointer;
+  text-decoration: transparent;
+  background-image: linear-gradient(to bottom, #FF79DA 1%, #9356DC 91%);
+  box-shadow: 5px 5px 5px #dedada;
+}
+
+.btn1 {
+  margin: 12% 25% 10% 25%;
+  text-align: center;
+}
+
 .logo {
   background-color: #fff;
   display: block;
@@ -42,13 +96,6 @@ p {
   margin: 16px;
 }
 
-h3 {
-  font-weight: 799;
-  font-size: 1.7em;
-  color: black;
-  margin-top: 1.5em;
-}
-
 .marge {
   margin-bottom: 3rem;
   font-size: 1.1rem;
@@ -57,21 +104,29 @@ h3 {
   margin-top: -1rem;
 }
 
-.btn, .btn1 {
-  border-radius: 2rem;
-  border: 0;
-  box-shadow: 3px 3px 3px #eaeaea;
-  color: #fff;
-  padding: 1rem 1.5rem 1rem 1.5rem;
-  cursor: pointer;
-  text-decoration: transparent;
-  background-image: linear-gradient(to bottom, #FF79DA 1%, #9356DC 91%);
-  box-shadow: 5px 5px 5px #dedada;
+/* carte menu*/
+.headerlogo {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 
-.btn1 {
-  margin: 12% 25% 10% 25%;
-  text-align: center;
+#marge {
+  margin-left: 9px;
+}
+
+.menu__foto {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.return {
+  display: inline;
+  position: absolute;
+  top: 1.5rem;
+  left: 1rem;
+  color: #000;
 }
 
 .nav {
@@ -105,6 +160,16 @@ h3 {
   font-weight: 550;
   margin-left: 0.8rem;
   font-size: 1rem;
+}
+
+.blanc {
+  color: #fff;
+  margin-right: 11px;
+  margin-left: 8px;
+  font-size: 14px;
+  margin-top: -3px;
+  margin-bottom: 8px;
+  float: 10px;
 }
 
 .restaurant {
@@ -145,21 +210,6 @@ h3 {
   margin-left: 1rem;
   margin-top: -0.8rem;
   padding-bottom: 0.5rem;
-}
-
-h2 {
-  font-weight: 600;
-  font-size: 1.5em;
-  color: black;
-  margin: 2em 1em 1em 0.5em;
-}
-
-h4 {
-  font-weight: 450;
-  font-size: 14px;
-  color: black;
-  color: #fff;
-  margin: 6px 10px 4px 2.5px;
 }
 
 .heart, .heart8, .heart6, .heart4, .heart2, .heart1, .heart9, .heart7, .heart5, .heart3 {
@@ -223,88 +273,12 @@ h4 {
   top: 1247px;
 }
 
-footer {
-  background-color: rgba(0, 0, 0, 0.786);
-}
-
-.footer {
-  margin: 26px;
-}
-
-.proposition {
-  display: inline-flex;
-  align-items: center;
-  color: #fff;
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-}
-
-.proposition--1 {
-  text-decoration: transparent;
-  margin: -2px 0px 0px 1px;
-  color: #fff;
-}
-
-.proposition--2 {
-  text-decoration: transparent;
-  color: #fff;
-  font-family: roboto, sans-serif;
-}
-
-h1 {
-  color: #fff;
-  font-family: "Shrikhand", sans-serif;
-  font-size: 23px;
-  font-weight: 200;
-}
-
-.blanc {
-  color: #fff;
-  margin-right: 11px;
-  margin-left: 8px;
-  font-size: 14px;
-  margin-top: -3px;
-  margin-bottom: 8px;
-  float: 10px;
-}
-
 .noir {
   color: inherit;
   font-size: 5px 0px 5px 5px;
 }
 
-.return {
-  display: inline;
-  position: absolute;
-  top: 1.5rem;
-  left: 1rem;
-  color: #000;
-}
-
-.headerlogo {
-  text-align: center;
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
-}
-
-#marge {
-  margin-left: 9px;
-}
-
-.menu__foto {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-}
-
 /*cartes menus*/
-h5 {
-  font-size: 1.6rem;
-  margin: 24px 12px 12px 16px;
-  font-family: "shrikhand", sans-serif;
-  text-align: left;
-}
-
 .plan {
   background-color: #f6f6f6;
   border-radius: 37px 37px 0px 0px;
@@ -471,8 +445,36 @@ h5 {
   margin-bottom: 5px;
 }
 
+footer {
+  background-color: rgba(0, 0, 0, 0.786);
+}
+
+.footer {
+  margin: 26px;
+}
+
+.proposition {
+  display: inline-flex;
+  align-items: center;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.proposition--1 {
+  text-decoration: transparent;
+  margin: -2px 0px 0px 1px;
+  color: #fff;
+}
+
+.proposition--2 {
+  text-decoration: transparent;
+  color: #fff;
+  font-family: roboto, sans-serif;
+}
+
 @media only screen and (min-width: 768px) {
-  /*grand ecran et tablette*/
+  /* tablette*/
   .fonctionnement {
     width: 48%;
     position: absolute;
@@ -606,6 +608,9 @@ h5 {
     display: inline-block;
     margin-right: -31px;
     margin-left: 19px;
+  }
+  .plan--menu .btn1 {
+    margin: 8% 25% 10% 25%;
   }
 
   .plan__menu {
