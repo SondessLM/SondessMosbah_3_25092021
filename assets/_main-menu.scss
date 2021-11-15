@@ -1,0 +1,256 @@
+/*cartes menus*/         
+
+.plan
+{
+    
+    background-color:$colour-greylight;
+    border-radius: 37px 37px 0px 0px;
+    margin-top: -42px;
+    width: 100%;
+    height: 1060px;
+
+}        
+.heart8
+{
+ @extend .heart;
+ right: 1rem;
+ top: 302px;
+
+ 
+ }
+
+ .heart9
+ {
+  @extend .heart1;
+  right: 1rem;
+  top: 302px;
+
+  }
+.menu
+{
+margin-left:15px;
+margin-bottom: 10px;
+font-size: 18px;
+font-family: 'Roboto,'sans-serif;
+color: #7e7e7e;
+border-bottom: 5px solid $colour-accent;
+width: 14%;
+}
+
+.plan__menu
+ {
+    background-color: $colour-white;
+    width: 93%;
+    margin: auto auto 14px auto;
+    border-radius: 12px 12px;
+    font-family: 'Roboto',sans-serif;
+    position: relative;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    animation: affichage 1s forwards;
+    opacity: 0;
+    
+    
+    &:hover{
+	     
+        opacity: 1;
+        max-width: 75%;
+        margin-left: 15px;
+        
+        
+        
+}
+
+    
+           
+ 
+  }
+
+
+  
+      
+      
+      
+     
+    
+
+  
+@keyframes affichage
+{
+0% {
+    transform: translateY(20px);
+    opacity: 0%;}
+
+100% {
+    transform: translateY(0px);
+    opacity: 100%;
+}
+}
+
+
+
+
+    
+  
+
+
+.titre
+{
+    font-family: 'ROBOTO', sans-serif;
+    font-size: 15px;
+    font-weight:599 ;
+    margin-left: 9px;
+    padding-top: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 233px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.details
+{
+    @extend .titre;
+    font-weight: 500;
+    margin-top: -10px;
+    padding-bottom: 9px;
+    font-size: 14px;
+   
+    
+}
+.prix
+{
+    
+       @include price;
+       
+     }
+
+.prix1
+{
+    @extend .prix;
+    top:514px;
+    
+}
+.prix2
+{
+    @extend .prix;
+    top:592px;
+   
+}
+.prix3
+{
+    @extend .prix;
+    top:717px;
+}
+.prix4
+{
+    @extend .prix;
+    top:797px;
+}
+.prix5
+{
+    @extend .prix;
+    top:877px;
+}
+.prix6
+{
+    @extend .prix;
+    top:999px;
+}
+.prix7
+{
+    @extend .prix;
+    top:1078px; 
+}
+.prix8
+{
+    @extend .prix;
+    top:1158px;
+}
+
+.select
+{
+   
+    display: inline;
+    position: absolute;
+    background-color: #99E2D0;
+    color: #fff;
+    font-size: 30px;
+    padding: 17px;
+    border-radius: 0 20% 20% 0;
+    opacity: 0;
+    top: -1%;
+    left: 90%;
+
+
+ &:hover {  
+  
+  opacity: 1;
+  -webkit-animation: selection 1s ease-in-out;
+	animation: selection 1s ease-in-out;}
+
+@keyframes selection {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  
+  }
+ 
+  100% {
+    -webkit-transform: translateX(50px);
+    transform: translateX(50px);
+    
+  }
+}
+}
+.fa-check-circle:hover
+{
+  transform:rotate(360deg);
+  transition:1s ease;
+}
+
+    
+.select1
+ {
+   @extend .select;
+   top:515px;
+ }
+ .select2
+ {
+   @extend .select;
+   top:595px;
+ }
+ .select3
+ {
+   @extend .select;
+   top:722px;
+ }
+ 
+ .select4
+ {
+   @extend .select;
+   top:803px;
+ }
+ .select5
+ {
+   @extend .select;
+   top:884px;
+ }
+ .select6
+ {
+   @extend .select;
+   top:1009px;
+ }
+ .select7
+ {
+   @extend .select;
+   top:1091px;
+ }
+ .select8
+ {
+   @extend .select;
+   top:1171px;
+ }
+.margin
+{
+margin-bottom: 10px;
+}
