@@ -218,18 +218,20 @@ h5 {
   font-size: 23.5px;
   right: 2.5rem;
   top: 72.5rem;
-  opacity: 1;
+  opacity: transparent;
   color: rgba(0, 0, 0, 0.705);
 }
 
 .heart1, .heart9, .heart7, .heart5, .heart3 {
-  opacity: 0;
   top: 72.5rem;
   font-size: 24px;
+  -webkit-text-fill-color: transparent;
 }
-.heart1:hover, .heart9:hover, .heart7:hover, .heart5:hover, .heart3:hover {
-  opacity: 1;
-  color: #9356DC;
+
+.fa-gradient:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .heart2 {
@@ -314,14 +316,32 @@ h5 {
   border-radius: 12px 12px;
   font-family: "Roboto", sans-serif;
   position: relative;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  animation: affichage 1s forwards;
+  opacity: 0;
 }
 
+@keyframes affichage {
+  0% {
+    transform: translateY(20px);
+    opacity: 0%;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 100%;
+  }
+}
 .titre, .details {
   font-family: "ROBOTO", sans-serif;
   font-size: 15px;
   font-weight: 599;
   margin-left: 9px;
   padding-top: 1px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 243px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .details {
@@ -329,34 +349,17 @@ h5 {
   margin-top: -10px;
   padding-bottom: 9px;
   font-size: 14px;
-  white-space: nowrap;
-  width: 243px;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
-.prix, .select, .select8, .select7, .select6, .select5, .select4, .select3, .select2, .select1, .prix8, .prix7, .prix6, .prix5, .prix4, .prix3, .prix2, .prix1 {
+.prix, .prix8, .prix7, .prix6, .prix5, .prix4, .prix3, .prix2, .prix1 {
   display: flex;
   align-content: space-between;
   justify-content: flex-end;
   margin-right: 13px;
-  cursor: pointer;
   font-weight: 550;
   font-size: 15px;
   margin-top: -40px;
   padding-bottom: 10px;
-}
-.prix:hover, .select:hover, .select8:hover, .select7:hover, .select6:hover, .select5:hover, .select4:hover, .select3:hover, .select2:hover, .select1:hover, .prix8:hover, .prix7:hover, .prix6:hover, .prix5:hover, .prix4:hover, .prix3:hover, .prix2:hover, .prix1:hover {
-  animation: gliss 0.6s ease-in-out;
-}
-@keyframes gliss {
-  0% {
-    transform: translate(0px);
-  }
-  100% {
-    transform: translateX(-100px);
-    opacity: 0;
-  }
 }
 
 .prix1 {
@@ -399,50 +402,61 @@ h5 {
   font-size: 30px;
   padding: 17px;
   border-radius: 0 20% 20% 0;
-  opacity: 0;
-  cursor: pointer;
-  top: 433px;
-  left: 80%;
-}
-.select:hover, .select8:hover, .select7:hover, .select6:hover, .select5:hover, .select4:hover, .select3:hover, .select2:hover, .select1:hover {
   opacity: 1;
-  animation: gliss 0.6s ease-in-out;
+  top: -1.5%;
+  left: 79%;
+}
+
+.fa-check-circle:hover {
+  transform: rotate(360deg);
+  transition: 0.4s ease;
 }
 
 .select1 {
-  top: 515px;
+  top: -2%;
 }
 
 .select2 {
-  top: 595px;
+  top: -0.5%;
 }
 
 .select3 {
-  top: 722px;
+  top: -1%;
 }
 
 .select4 {
-  top: 803px;
+  top: -2%;
 }
 
 .select5 {
-  top: 884px;
+  top: -1%;
 }
 
 .select6 {
-  top: 1009px;
+  top: -2%;
 }
 
 .select7 {
-  top: 1091px;
+  top: -1%;
 }
 
 .select8 {
-  top: 1171px;
+  top: -1%;
 }
 
 .margin {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.selection, .plan__menu, .fa-check-circle {
+  cursor: pointer;
+  transition: transform 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.4s ease-in-out;
+}
+.selection:hover, .plan__menu:hover, .fa-check-circle:hover {
+  cursor: pointer;
+  width: 75%;
+  margin-left: 15px;
+  opacity: 1;
 }
 
 footer {
@@ -451,6 +465,8 @@ footer {
 
 .footer {
   margin: 26px;
+  display: flex;
+  flex-direction: column;
 }
 
 .proposition {
@@ -936,6 +952,45 @@ footer {
   }
 
   .heart, .heart2, .heart3, .heart6, .heart7, .heart8, .heart9, .heart1, .heart4, .heart5 {
+    right: 55rem;
+  }
+
+  .heart2, .heart3, .heart6, .heart7 {
+    right: 8rem;
+  }
+
+  .nouveau, .nouveau1 {
+    right: 850px;
+  }
+
+  .nouveau1 {
+    right: 111px;
+  }
+
+  /*resonsive menu*/
+  .plan--menu {
+    margin-right: 33px;
+    margin-left: 57px;
+  }
+
+  .heart8, .heart9 {
+    right: 5rem;
+  }
+}
+@media only screen and (min-width: 1604px) {
+  .fonctionnement {
+    right: 33px;
+  }
+
+  .form1 {
+    width: 98.5%;
+  }
+
+  .restaurant-couverture {
+    width: 755px;
+  }
+
+  .heart, .heart2, .heart3, .heart6, .heart7, .heart8, .heart9, .heart1, .heart4, .heart5 {
     right: 62rem;
   }
 
@@ -978,11 +1033,11 @@ footer {
   }
 
   .heart, .heart2, .heart3, .heart6, .heart7, .heart8, .heart9, .heart1, .heart4, .heart5 {
-    right: 66rem;
+    right: 63rem;
   }
 
   .nouveau, .nouveau1 {
-    right: 1033px;
+    right: 1006px;
   }
 
   .heart2, .heart3, .heart6, .heart7 {
@@ -998,9 +1053,9 @@ footer {
     right: 5rem;
   }
 }
-@media only screen and (min-width: 1970px) {
+@media only screen and (min-width: 1901px) {
   .fonctionnement {
-    right: 35pxpx;
+    right: 35px;
   }
 
   .form1 {
@@ -1017,9 +1072,9 @@ footer {
     margin-left: 68px;
   }
 }
-@media only screen and (min-width: 2010px) {
+@media only screen and (min-width: 1900px) {
   .restaurant-couverture {
-    width: 912px;
+    width: 900px;
   }
 
   .heart, .heart2, .heart3, .heart6, .heart7, .heart8, .heart9, .heart1, .heart4, .heart5 {
@@ -1041,6 +1096,105 @@ footer {
   /* responsive menu*/
   .heart8, .heart9 {
     right: 3rem;
+  }
+}
+@media only screen and (min-width: 1983px) {
+  .restaurant-couverture {
+    width: 941px;
+  }
+}
+@media only screen and (min-width: 2010px) {
+  .restaurant-couverture {
+    width: 955px;
+  }
+}
+@media only screen and (min-width: 2027px) {
+  .restaurant-couverture {
+    width: 963px;
+  }
+
+  .heart, .heart2, .heart3, .heart6, .heart7, .heart8, .heart9, .heart1, .heart4, .heart5 {
+    right: 73rem;
+  }
+
+  .nouveau, .nouveau1 {
+    right: 1144px;
+  }
+
+  .heart2, .heart3, .heart6, .heart7 {
+    right: 8rem;
+  }
+
+  .nouveau1 {
+    right: 111px;
+  }
+}
+@media only screen and (min-width: 2153px) {
+  .restaurant-couverture {
+    width: 1025px;
+  }
+}
+@media only screen and (min-width: 2204px) {
+  .restaurant-couverture {
+    width: 1049px;
+  }
+
+  .heart, .heart2, .heart3, .heart6, .heart7, .heart8, .heart9, .heart1, .heart4, .heart5 {
+    right: 80rem;
+  }
+
+  .nouveau, .nouveau1 {
+    right: 1231px;
+  }
+
+  .heart2, .heart3, .heart6, .heart7 {
+    right: 8rem;
+  }
+
+  .nouveau1 {
+    right: 111px;
+  }
+}
+@media only screen and (min-width: 2308px) {
+  .restaurant-couverture {
+    width: 1100px;
+  }
+
+  .heart, .heart2, .heart3, .heart6, .heart7, .heart8, .heart9, .heart1, .heart4, .heart5 {
+    right: 85rem;
+  }
+
+  .nouveau, .nouveau1 {
+    right: 1300px;
+  }
+
+  .heart2, .heart3, .heart6, .heart7 {
+    right: 8rem;
+  }
+
+  .nouveau1 {
+    right: 111px;
+  }
+}
+@media only screen and (min-width: 2440px) {
+  .restaurant-couverture {
+    width: 1165px;
+  }
+
+  .heart, .heart2, .heart3, .heart6, .heart7, .heart8, .heart9, .heart1, .heart4, .heart5 {
+    right: 87rem;
+  }
+
+  .nouveau, .nouveau1 {
+    right: 1340px;
+  }
+
+  .heart2, .heart3, .heart6, .heart7 {
+    right: 9rem;
+  }
+
+  .nouveau1 {
+    right: 130px;
   }
 }
 @media only screen and (min-width: 2560px) {
@@ -1070,7 +1224,7 @@ footer {
   }
 
   .restaurant-couverture {
-    width: 879px;
+    width: 1198px;
   }
 
   .restaurant-img {
@@ -1089,12 +1243,12 @@ footer {
 
   .heart2, .heart3, .heart6, .heart7 {
     top: 62rem;
-    right: 22rem;
+    right: 14rem;
   }
 
   .heart6, .heart7 {
     top: 94rem;
-    right: 22rem;
+    right: 14rem;
   }
 
   .nouveau, .nouveau1 {
@@ -1102,7 +1256,7 @@ footer {
   }
 
   .nouveau1 {
-    right: 307px;
+    right: 170px;
   }
 
   footer {

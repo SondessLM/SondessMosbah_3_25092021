@@ -50,30 +50,11 @@ width: 14%;
     opacity: 0;
     
     
-    &:hover{
-	     
-        opacity: 1;
-        max-width: 75%;
-        margin-left: 15px;
+   
         
         
         
 }
-
-    
-           
- 
-  }
-
-
-  
-      
-      
-      
-     
-    
-
-  
 @keyframes affichage
 {
 0% {
@@ -85,14 +66,6 @@ width: 14%;
     opacity: 100%;
 }
 }
-
-
-
-
-    
-  
-
-
 .titre
 {
     font-family: 'ROBOTO', sans-serif;
@@ -102,7 +75,7 @@ width: 14%;
     padding-top: 1px;
     overflow: hidden;
     white-space: nowrap;
-    width: 233px;
+    width: 243px;
     overflow: hidden;
     text-overflow: ellipsis;
 
@@ -114,8 +87,7 @@ width: 14%;
     margin-top: -10px;
     padding-bottom: 9px;
     font-size: 14px;
-   
-    
+ 
 }
 .prix
 {
@@ -177,80 +149,74 @@ width: 14%;
     font-size: 30px;
     padding: 17px;
     border-radius: 0 20% 20% 0;
-    opacity: 0;
-    top: -1%;
-    left: 90%;
+    opacity: 1;
+    top:-1.5%;
+    left: 79%;
+   
 
-
- &:hover {  
-  
-  opacity: 1;
-  -webkit-animation: selection 1s ease-in-out;
-	animation: selection 1s ease-in-out;}
-
-@keyframes selection {
-  0% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px);
-  
-  }
  
-  100% {
-    -webkit-transform: translateX(50px);
-    transform: translateX(50px);
-    
-  }
-}
 }
 .fa-check-circle:hover
 {
+  
   transform:rotate(360deg);
-  transition:1s ease;
+  transition:0.4s ease;
 }
 
     
 .select1
  {
    @extend .select;
-   top:515px;
+   top:-2%;
  }
  .select2
  {
    @extend .select;
-   top:595px;
+   top:-0.5%;
  }
  .select3
  {
    @extend .select;
-   top:722px;
+   top:-1%;
  }
  
  .select4
  {
    @extend .select;
-   top:803px;
+   top:-2%;
  }
  .select5
  {
    @extend .select;
-   top:884px;
+   top:-1%;
  }
  .select6
  {
    @extend .select;
-   top:1009px;
+   top:-2%;
  }
  .select7
  {
    @extend .select;
-   top:1091px;
+   top:-1%;
  }
  .select8
  {
    @extend .select;
-   top:1171px;
+   top:-1%;
  }
 .margin
 {
 margin-bottom: 10px;
+}
+ .selection,.plan__menu,.fa-check-circle
+{
+  cursor: pointer;  
+  transition: transform 0.4s ease-in-out, width 0.4s ease-in-out,opacity 0.4s ease-in-out;
+  &:hover{
+  cursor: pointer; 
+  width: 75%;
+  margin-left: 15px;
+  opacity: 1;
+  }
 }

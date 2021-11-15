@@ -496,27 +496,63 @@ margin: 12px 92px 14px 20px;
       width: 708px;
     }
     .heart, .heart1, .heart4, .heart5 {
-      right: 62rem;
+      right: 55rem;
 
     }
     .heart2, .heart3, .heart6, .heart7 {
       right: 8rem;
     }
     .nouveau {
-      right: 960px;
+      right: 850px;
     }
     .nouveau1{
         right: 111px;
     }
     /*resonsive menu*/
     .plan--menu {
-      margin-right: 74px;
-     margin-left: 68px;}
+      margin-right: 33px;
+     margin-left: 57px;}
     .heart8 , .heart9
     {
     right: 5rem;  
     }
   
+}  
+@media only screen and (min-width: 1604px) {
+
+  .fonctionnement {
+    
+    right: 33px;
+    
+}
+.form1 {
+   width: 98.5%;
+ }
+.restaurant-couverture {
+    width: 755px;
+  }
+  .heart, .heart1, .heart4, .heart5 {
+    right: 62rem;
+
+  }
+  .heart2, .heart3, .heart6, .heart7 {
+    right: 8rem;
+  }
+  .nouveau {
+    right: 960px;
+  }
+  .nouveau1{
+      right: 111px;
+  }
+  /*resonsive menu*/
+  .plan--menu {
+    margin-right: 74px;
+   margin-left: 68px;}
+  .heart8 , .heart9
+  {
+  right: 5rem;  
+  }
+
 }  
 
 @media only screen and (min-width: 1740px) {
@@ -536,9 +572,9 @@ margin: 12px 92px 14px 20px;
  .restaurant-couverture {
           width: 858px;}
 .heart, .heart1, .heart4, .heart5 {
-            right: 66rem;}
+            right: 63rem;}
 .nouveau{
-         right:1033px;
+         right:1006px;
        } 
 .heart2, .heart3, .heart6, .heart7 {
         right: 8rem;}
@@ -551,10 +587,10 @@ margin: 12px 92px 14px 20px;
    right: 5rem;
  }       
 }   
-@media only screen and (min-width: 1970px) {
+@media only screen and (min-width: 1901px) {
   .fonctionnement {
     
-    right: 35pxpx;
+    right: 35px;
     
 }
 .form1 {
@@ -569,9 +605,9 @@ margin: 12px 92px 14px 20px;
   margin-left: 68px;
 }
 }
-@media only screen and (min-width: 2010px) {
+@media only screen and (min-width: 1900px) {
   .restaurant-couverture {
-           width: 912px;}
+           width: 900px;}
  .heart, .heart1, .heart4, .heart5 {
              right: 68rem;}
  .nouveau{
@@ -588,7 +624,73 @@ margin: 12px 92px 14px 20px;
      right:3rem;
    }      
  }   
-    
+ 
+ @media only screen and (min-width: 1983px) {
+  .restaurant-couverture {
+           width: 941px;} 
+  }         
+  @media only screen and (min-width: 2010px) {
+    .restaurant-couverture {
+             width: 955px;} 
+    }        
+    @media only screen and (min-width: 2027px) {
+      .restaurant-couverture {
+               width: 963px;} 
+               .heart, .heart1, .heart4, .heart5 {
+                right: 73rem;}
+    .nouveau{
+             right:1144px;
+           } 
+    .heart2, .heart3, .heart6, .heart7 {
+            right: 8rem;}
+    .nouveau1{
+              right: 111px;
+          }       
+      }       
+@media only screen and (min-width: 2153px) {
+.restaurant-couverture { width: 1025px;} 
+}
+@media only screen and (min-width: 2204px) {
+.restaurant-couverture { width: 1049px;} 
+
+  .heart, .heart1, .heart4, .heart5 {
+   right: 80rem;}
+.nouveau{
+right:1231px;
+} 
+.heart2, .heart3, .heart6, .heart7 {
+right: 8rem;}
+.nouveau1{
+ right: 111px;
+}       
+} 
+@media only screen and (min-width: 2308px) {
+  .restaurant-couverture { width: 1100px;} 
+  .heart, .heart1, .heart4, .heart5 {
+    right: 85rem;}
+ .nouveau{
+ right:1300px;
+ } 
+ .heart2, .heart3, .heart6, .heart7 {
+ right: 8rem;}
+ .nouveau1{
+  right: 111px;
+ } 
+  }
+  @media only screen and (min-width: 2440px) {
+    .restaurant-couverture { width: 1165px;} 
+    .heart, .heart1, .heart4, .heart5 {
+      right: 87rem;}
+   .nouveau{
+   right:1340px;
+   } 
+   .heart2, .heart3, .heart6, .heart7 {
+   right: 9rem;}
+   .nouveau1{
+    right: 130px;
+   } 
+  }
+
 @media only screen and (min-width: 2560px) {
   .position {
     width: 44%;
@@ -616,7 +718,7 @@ margin: 12px 92px 14px 20px;
   }
 
   .restaurant-couverture {
-    width: 879px;
+    width: 1198px;
   }
 
   .restaurant-img {
@@ -635,12 +737,12 @@ margin: 12px 92px 14px 20px;
 
   .heart2, .heart3, .heart6, .heart7 {
     top: 62rem;
-    right: 22rem;
+    right: 14rem;
   }
 
   .heart6, .heart7 {
     top: 94rem;
-    right: 22rem;
+    right: 14rem;
   }
 
   .nouveau, .nouveau1 {
@@ -648,7 +750,7 @@ margin: 12px 92px 14px 20px;
   }
 
   .nouveau1 {
-    right: 307px;
+    right: 170px;
   }
 
   footer {

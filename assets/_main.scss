@@ -51,22 +51,28 @@
   
   .heart 
    {
-	@include coeur;
+   	@include coeur;
        
-    }
+  }
   
   .heart1
   {
     @extend .heart;
-    opacity: 0;
     top: 72.5rem;
     font-size: 24px;
-	 &:hover
-    {
-       opacity: 1;
-       color: $colour-primary;
-    }
+    -webkit-text-fill-color: transparent;
   }
+.fa-gradient:hover
+
+  {
+    background:-webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+   
+
+  }
+
+  
    
    .heart2
    {
@@ -104,6 +110,7 @@
      top: 121.2rem;
          
      }
+
      
      .nouveau {
         
@@ -139,208 +146,3 @@
     font-size: 5px 0px 5px 5px;
 }
 
-/*cartes menus*/         
-
-.plan
-{
-    
-    background-color:$colour-greylight;
-    border-radius: 37px 37px 0px 0px;
-    margin-top: -42px;
-    width: 100%;
-    height: 1060px;
-
-}        
-.heart8
-{
- @extend .heart;
- right: 1rem;
- top: 302px;
-
- 
- }
-
- .heart9
- {
-  @extend .heart1;
-  right: 1rem;
-  top: 302px;
-
-  }
-.menu
-{
-margin-left:15px;
-margin-bottom: 10px;
-font-size: 18px;
-font-family: 'Roboto,'sans-serif;
-color: #7e7e7e;
-border-bottom: 5px solid $colour-accent;
-width: 14%;
-}
-
-.plan__menu
-{
-    background-color: $colour-white;
-    width: 93%;
-    margin: auto auto 14px auto;
-    border-radius: 12px 12px;
-    font-family: 'Roboto',sans-serif;
-    position: relative;
-}
-.titre
-{
-    font-family: 'ROBOTO', sans-serif;
-    font-size: 15px;
-    font-weight:599 ;
-    margin-left: 9px;
-    padding-top: 1px;
-}
-.details
-{
-    @extend .titre;
-    font-weight: 500;
-    margin-top: -10px;
-    padding-bottom: 9px;
-    font-size: 14px;
-    white-space: nowrap;
-    width: 243px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    
-}
-.prix
-{
-    
-       @include price;
-       
-     &:hover
-      {
-      animation: gliss .6s ease-in-out;    
-       
-      }
-    @keyframes gliss
-    {
-       0% {
-           transform: translate(0px);
-         } 
-       
-        100% {
-            transform: translateX(-100px);
-        opacity: 0}     
-           
-      
-    }
-    
-}
-.prix1
-{
-    @extend .prix;
-    top:514px;
-    
-}
-.prix2
-{
-    @extend .prix;
-    top:592px;
-   
-}
-.prix3
-{
-    @extend .prix;
-    top:717px;
-}
-.prix4
-{
-    @extend .prix;
-    top:797px;
-}
-.prix5
-{
-    @extend .prix;
-    top:877px;
-}
-.prix6
-{
-    @extend .prix;
-    top:999px;
-}
-.prix7
-{
-    @extend .prix;
-    top:1078px; 
-}
-.prix8
-{
-    @extend .prix;
-    top:1158px;
-}
-.select
-{
-    @extend .prix;
-    display: inline;
-    position:absolute;
-    background-color: #99E2D0;
-    color: #fff;
-    font-size: 30px;
-    padding: 17px;
-    border-radius: 0 20% 20% 0;
-    opacity: 0;
-    cursor: pointer;
-    top:433px;
-    left:80%;
-    
-    
-    &:hover
-    {
-        opacity: 1;
-        animation: gliss .6s ease-in-out;
-    }
- }
- .select1
- {
-   @extend .select;
-   top:515px;
- }
- .select2
- {
-   @extend .select;
-   top:595px;
- }
- .select3
- {
-   @extend .select;
-   top:722px;
- }
- 
- .select4
- {
-   @extend .select;
-   top:803px;
- }
- .select5
- {
-   @extend .select;
-   top:884px;
- }
- .select6
- {
-   @extend .select;
-   top:1009px;
- }
- .select7
- {
-   @extend .select;
-   top:1091px;
- }
- .select8
- {
-   @extend .select;
-   top:1171px;
- }
-.margin
-{
-margin-bottom: 5px;
-}
-
-    
-   
