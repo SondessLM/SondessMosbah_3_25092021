@@ -409,6 +409,7 @@ h5 {
 .fa-check-circle:hover {
   transform: rotate(360deg);
   transition: 0.4s ease;
+  width: max-content;
 }
 
 .select1 {
@@ -447,11 +448,11 @@ h5 {
   margin-bottom: 10px;
 }
 
-.selection, .plan__menu, .fa-check-circle {
+.selection, .plan__menu {
   cursor: pointer;
   transition: transform 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.4s ease-in-out;
 }
-.selection:hover, .plan__menu:hover, .fa-check-circle:hover {
+.selection:hover, .plan__menu:hover {
   cursor: pointer;
   width: 75%;
   margin-left: 15px;
@@ -986,7 +987,7 @@ footer {
   }
 
   .restaurant-couverture {
-    width: 755px;
+    width: 754px;
   }
 
   .heart, .heart2, .heart3, .heart6, .heart7, .heart8, .heart9, .heart1, .heart4, .heart5 {
