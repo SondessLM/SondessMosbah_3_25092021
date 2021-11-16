@@ -46,14 +46,8 @@ width: 14%;
     font-family: 'Roboto',sans-serif;
     position: relative;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    animation: affichage 1s forwards;
-    opacity: 0;
-    
-    
-   
-        
-        
-        
+    animation: affichage 1s forwards; 
+         
 }
 @keyframes affichage
 {
@@ -75,7 +69,7 @@ width: 14%;
     padding-top: 1px;
     overflow: hidden;
     white-space: nowrap;
-    width: 243px;
+    width: 80%;
     overflow: hidden;
     text-overflow: ellipsis;
 
@@ -89,10 +83,12 @@ width: 14%;
     font-size: 14px;
  
 }
+
 .prix
 {
     
        @include price;
+       
        
      }
 
@@ -151,7 +147,8 @@ width: 14%;
     border-radius: 0 20% 20% 0;
     opacity: 1;
     top:-1.5%;
-    left: 79%;
+    left: 83%;
+   opacity: 0;
    
 
  
@@ -209,14 +206,18 @@ width: 14%;
 {
 margin-bottom: 10px;
 }
- .selection,.plan__menu,.fa-check-circle
+  .selection,.plan__menu,.fa-check-circle
 {
+  
   cursor: pointer;  
   transition: transform 0.4s ease-in-out, width 0.4s ease-in-out,opacity 0.4s ease-in-out;
   &:hover{
   cursor: pointer; 
   width: 75%;
   margin-left: 15px;
-  opacity: 1;
-  }
+ opacity: 1;
+  
+  
+ 
+}
 }

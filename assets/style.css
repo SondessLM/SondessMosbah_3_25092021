@@ -231,7 +231,6 @@ h5 {
 .fa-gradient:hover {
   background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .heart2 {
@@ -318,7 +317,6 @@ h5 {
   position: relative;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   animation: affichage 1s forwards;
-  opacity: 0;
 }
 
 @keyframes affichage {
@@ -339,7 +337,7 @@ h5 {
   padding-top: 1px;
   overflow: hidden;
   white-space: nowrap;
-  width: 243px;
+  width: 80%;
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -354,8 +352,8 @@ h5 {
 .prix, .prix8, .prix7, .prix6, .prix5, .prix4, .prix3, .prix2, .prix1 {
   display: flex;
   align-content: space-between;
-  justify-content: flex-end;
-  margin-right: 13px;
+  justify-content: center;
+  margin-left: 81%;
   font-weight: 550;
   font-size: 15px;
   margin-top: -40px;
@@ -404,7 +402,8 @@ h5 {
   border-radius: 0 20% 20% 0;
   opacity: 1;
   top: -1.5%;
-  left: 79%;
+  left: 83%;
+  opacity: 0;
 }
 
 .fa-check-circle:hover {
