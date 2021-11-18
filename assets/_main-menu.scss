@@ -47,6 +47,17 @@ width: 14%;
     position: relative;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     animation: affichage 1s forwards; 
+    cursor: pointer;
+   
+    
+    &:hover
+    {
+      
+      transition: transform 0.4s ease-in-out, width 0.4s ease-in-out,opacity 0.4s ease-in-out;
+      margin-left: 15px;
+      width: 64%;
+      opacity: 1;
+    }
          
 }
 @keyframes affichage
@@ -60,7 +71,7 @@ width: 14%;
     opacity: 100%;
 }
 }
-.titre
+.titre 
 {
     font-family: 'ROBOTO', sans-serif;
     font-size: 15px;
@@ -83,7 +94,13 @@ width: 14%;
     font-size: 14px;
  
 }
-
+.titre p
+{
+  white-space: nowrap;
+    width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 .prix
 {
     
@@ -145,20 +162,21 @@ width: 14%;
     font-size: 30px;
     padding: 17px;
     border-radius: 0 20% 20% 0;
-    opacity: 1;
     top:-1.5%;
-    left: 83%;
-   opacity: 0;
+    left: 49%; 
+       
+    animation: selection ease-out 0s forwards; 
    
-
+    
  
 }
-.fa-check-circle:hover
+.fa-check-circle:read-only
 {
   
   transform:rotate(360deg);
   transition:0.4s ease;
-  width: max-content;
+  transition: transform 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.4s ease-in-out;
+
 }
 
     
@@ -207,18 +225,13 @@ width: 14%;
 {
 margin-bottom: 10px;
 }
-  .selection,.plan__menu
-{
-  
-  cursor: pointer;  
-  transition: transform 0.4s ease-in-out, width 0.4s ease-in-out,opacity 0.4s ease-in-out;
-  &:hover{
-  cursor: pointer; 
-  width: 75%;
-  margin-left: 15px;
- opacity: 1;
-  
-  
- 
+@keyframes selection {
+
+
+100% {
+    transform: translateX(96px);
+    
+    opacity: 1;
+    
 }
 }

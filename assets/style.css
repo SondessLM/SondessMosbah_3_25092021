@@ -317,6 +317,13 @@ h5 {
   position: relative;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   animation: affichage 1s forwards;
+  cursor: pointer;
+}
+.plan__menu:hover {
+  transition: transform 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.4s ease-in-out;
+  margin-left: 15px;
+  width: 64%;
+  opacity: 1;
 }
 
 @keyframes affichage {
@@ -349,11 +356,18 @@ h5 {
   font-size: 14px;
 }
 
+.titre p, .details p {
+  white-space: nowrap;
+  width: 80%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .prix, .prix8, .prix7, .prix6, .prix5, .prix4, .prix3, .prix2, .prix1 {
   display: flex;
   align-content: space-between;
   justify-content: center;
-  margin-left: 81%;
+  margin-left: 79%;
   font-weight: 550;
   font-size: 15px;
   margin-top: -40px;
@@ -400,16 +414,15 @@ h5 {
   font-size: 30px;
   padding: 17px;
   border-radius: 0 20% 20% 0;
-  opacity: 1;
   top: -1.5%;
-  left: 83%;
-  opacity: 0;
+  left: 49%;
+  animation: selection ease-out 0s forwards;
 }
 
-.fa-check-circle:hover {
+.fa-check-circle:read-only {
   transform: rotate(360deg);
   transition: 0.4s ease;
-  width: max-content;
+  transition: transform 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.4s ease-in-out;
 }
 
 .select1 {
@@ -448,17 +461,12 @@ h5 {
   margin-bottom: 10px;
 }
 
-.selection, .plan__menu {
-  cursor: pointer;
-  transition: transform 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.4s ease-in-out;
+@keyframes selection {
+  100% {
+    transform: translateX(96px);
+    opacity: 1;
+  }
 }
-.selection:hover, .plan__menu:hover {
-  cursor: pointer;
-  width: 75%;
-  margin-left: 15px;
-  opacity: 1;
-}
-
 footer {
   background-color: rgba(0, 0, 0, 0.786);
 }
