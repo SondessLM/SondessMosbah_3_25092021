@@ -48,18 +48,18 @@ width: 14%;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     animation: affichage 1s forwards; 
     cursor: pointer;
-   
-    
     &:hover
-    {
-      
-      transition: transform 0.4s ease-in-out, width 0.4s ease-in-out,opacity 0.4s ease-in-out;
-      margin-left: 15px;
-      width: 64%;
-      opacity: 1;
-    }
-         
+{
+  
+   
+    transition: transform 0.4s ease-in-out, width 0.4s ease-in-out,opacity 0.4s ease-in-out;
+    margin-left: 15px;
+    width: 64%;
+    
+    
+  
 }
+  }
 @keyframes affichage
 {
 0% {
@@ -105,7 +105,6 @@ width: 14%;
 {
     
        @include price;
-       
        
      }
 
@@ -153,8 +152,7 @@ width: 14%;
 }
 
 .select
-{
-   
+{  
     display: inline;
     position: absolute;
     background-color: #99E2D0;
@@ -163,21 +161,33 @@ width: 14%;
     padding: 17px;
     border-radius: 0 20% 20% 0;
     top:-1.5%;
-    left: 49%; 
-       
-    animation: selection ease-out 0s forwards; 
-   
+    left: 49%;
+    cursor: pointer;
+    transform: translateX(99px);
     
- 
-}
-.fa-check-circle:read-only
-{
+    opacity: 0;
+   
+   &:hover 
+      {
+        
+      
+      opacity: 1;
+   
+ }    
+ }
   
-  transform:rotate(360deg);
-  transition:0.4s ease;
-  transition: transform 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.4s ease-in-out;
+@keyframes selection {
+    0%{
+      transform: translateX(150px);
+      opacity: 0;
+    }
+    100%{
+      transform: translateX(99px);
+      opacity: 1;
+    }
+  }
+  
 
-}
 
     
 .select1
@@ -225,13 +235,27 @@ width: 14%;
 {
 margin-bottom: 10px;
 }
-@keyframes selection {
 
 
-100% {
-    transform: translateX(96px);
-    
-    opacity: 1;
-    
+
+  
+  
+
+
+.fa-check-circle:hover 
+{
+   
+  animation: rotation 0.6s ease-in-out forwards;
 }
+
+
+@keyframes rotation {
+  0% {
+    
+            transform: rotate(180deg);
+  }
+  100% {
+    
+            transform: rotate(360deg);
+  }
 }

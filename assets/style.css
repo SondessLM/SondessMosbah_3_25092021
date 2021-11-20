@@ -7,6 +7,63 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.animation {
+  background: linear-gradient(to bottom, #FF79DA 1%, #9356DC 91%);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  z-index: 900;
+  font-size: 40px;
+  animation: attente 2s 1s both;
+}
+
+.animation::after {
+  content: "";
+  width: 100px;
+  height: 100px;
+  border: 15px solid #eaeaea;
+  animation: attente1 2s linear infinite;
+}
+
+.fa-utensils {
+  content: "";
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f6f6f6;
+  animation: attente2 2s linear infinite;
+}
+
+@keyframes attente {
+  0% {
+    opacity: 1;
+    z-index: 900;
+  }
+  100% {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+@keyframes attente1 {
+  0% {
+    transform: rotate(0turn);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+@keyframes attente2 {
+  0% {
+    transform: rotate(1turn);
+  }
+  100% {
+    transform: rotate(0turn);
+  }
+}
 p {
   color: #000;
 }
@@ -323,7 +380,6 @@ h5 {
   transition: transform 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.4s ease-in-out;
   margin-left: 15px;
   width: 64%;
-  opacity: 1;
 }
 
 @keyframes affichage {
@@ -416,15 +472,24 @@ h5 {
   border-radius: 0 20% 20% 0;
   top: -1.5%;
   left: 49%;
-  animation: selection ease-out 0s forwards;
+  cursor: pointer;
+  transform: translateX(99px);
+  opacity: 0;
+}
+.select:hover, .select8:hover, .select7:hover, .select6:hover, .select5:hover, .select4:hover, .select3:hover, .select2:hover, .select1:hover {
+  opacity: 1;
 }
 
-.fa-check-circle:read-only {
-  transform: rotate(360deg);
-  transition: 0.4s ease;
-  transition: transform 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.4s ease-in-out;
+@keyframes selection {
+  0% {
+    transform: translateX(150px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(99px);
+    opacity: 1;
+  }
 }
-
 .select1 {
   top: -2%;
 }
@@ -461,10 +526,16 @@ h5 {
   margin-bottom: 10px;
 }
 
-@keyframes selection {
+.fa-check-circle:hover {
+  animation: rotation 0.6s ease-in-out forwards;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(180deg);
+  }
   100% {
-    transform: translateX(96px);
-    opacity: 1;
+    transform: rotate(360deg);
   }
 }
 footer {
