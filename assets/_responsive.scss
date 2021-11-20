@@ -1,3 +1,14 @@
+@media screen and (min-width:375px) {
+  .select {
+    left:56%;
+  }
+}
+
+@media screen and (min-width:425px) {
+  .select {
+    left:59%;
+  }
+}
 @media only screen and (min-width: 768px) 
 {
 /* tablette*/
@@ -154,6 +165,9 @@ border-radius: 20px;
     margin: 12px 92px 14px 20px;
     
    
+}
+.select{
+  left:55%
 }
 }
 @media (max-width:824px) and (min-width:809px)
@@ -392,35 +406,9 @@ border-radius: 20px;
     width: 94%;
     margin: 12px 92px 14px 20px;
     
-    &:active
-    {
-      
-      animation: selection 1.2s .3s ease-out both,transform .3s;
-      transition: all 1.5s;
-      
-    }
+   
+
     
-    @keyframes selection 
-    {
-      0% {
-       
-        transform: translateY(-50%);
-        opacity: 0;
-    }
-    100% {
-      
-        transform: translateY(0);
-        opacity: 1;
-    }
-    
-        }
-      
-    
-  }
-  .select2 {
-    margin-inline: -654px;
-    opacity: 1;
-    margin-block: -25px;
   
 }
   .btn1 {
@@ -778,5 +766,10 @@ right: 8rem;}
 .plan--menu {
   margin-right: -13px;
   margin-left: 94px;
+}
+
+.select
+{
+left:72%
 }
 }

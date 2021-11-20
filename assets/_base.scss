@@ -21,11 +21,23 @@ body{
         
         
      }  
+     .animation::before{
+        content: "";
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 180px;
+        height: 180px;
+        border: 15px solid $colour-grey;
+        animation: attente2 2s linear infinite;
+        
+     }
     .animation::after {
         content: "";
         width: 100px;
         height: 100px;
-        border: 15px solid $colour-grey;
+        border: 15px solid $colour-accent;
         animation: attente1 2s linear infinite;
     }
     .fa-utensils
