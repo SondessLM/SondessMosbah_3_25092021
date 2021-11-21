@@ -130,7 +130,7 @@ h5 {
 .btn:hover, .btn1:hover {
   background-image: linear-gradient(to bottom, #FF79DA 1%, #c040e7 91%);
   padding: 1.1rem 1.6rem 1.1rem 1.6rem;
-  box-shadow: 11px 11px 11px #dedada;
+  box-shadow: 10px 10px 10px #dedada;
 }
 
 .btn1 {
@@ -303,7 +303,7 @@ h5 {
 
 .fa-gradient:hover {
   background: -webkit-gradient(linear, left top, left bottom, from(#9356DC), to(#FF79DA));
-  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 .heart2 {
