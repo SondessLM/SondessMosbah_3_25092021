@@ -1,14 +1,16 @@
 @mixin boutton {
   border-radius: 2rem;
   border:0;
-  box-shadow: 3px 3px 3px $colour-grey;
   color:$colour-white;
   padding: 1rem 1.5rem 1rem 1.5rem;
   cursor: pointer;
   text-decoration: transparent;
   background-image:linear-gradient(to bottom, #FF79DA 1%, #9356DC 91%) ;
   box-shadow: 5px 5px 5px $colour-shadow;
- 
+ &:hover{
+ background-image:linear-gradient(to bottom, #FF79DA 1%, #c040e7 91%) ;
+ padding: 1.1rem 1.6rem 1.1rem 1.6rem;
+ box-shadow: 11px 11px 11px $colour-shadow;}
 }
 @mixin coeur {
   position: absolute;
