@@ -553,7 +553,7 @@ h5 {
 }
 
 .plan__menu:hover > .prix, .plan__menu:hover > .prix1, .plan__menu:hover > .prix2, .plan__menu:hover > .prix3, .plan__menu:hover > .prix4, .plan__menu:hover > .prix5, .plan__menu:hover > .prix6, .plan__menu:hover > .prix7, .plan__menu:hover > .prix8 {
-  transform: translateX(-55px);
+  transform: translateX(-45px);
   transition-duration: 1s;
   opacity: 1;
 }
