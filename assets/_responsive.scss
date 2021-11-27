@@ -1,13 +1,17 @@
 @media screen and (min-width:375px) {
   .select {
-    left:56%;
+    left:86%;
   }
 }
 
 @media screen and (min-width:425px) {
   .select {
-    left:59%;
+    left:90%;
   }
+  .btn1 
+{
+  margin: 5% 25% 10% 25%;
+}
 }
 @media only screen and (min-width: 768px) 
 {
@@ -154,10 +158,8 @@ border-radius: 20px;
         display: inline-block;
         margin-right: -31px;
         margin-left: 19px;
-.btn1 {
-  margin: 8% 25% 10% 25%;
-  }
 }
+
 
 .plan__menu {
    
@@ -167,8 +169,11 @@ border-radius: 20px;
    
 }
 .select{
-  left:55%
+  left:86.5%;
 }
+
+
+
 }
 @media (max-width:824px) and (min-width:809px)
 {
@@ -232,8 +237,8 @@ border-radius: 20px;
     { right:72px;}
     /*responsive menus*/
     .plan--menu {
-      margin-right: -62px;
-      margin-left: 18px;
+      margin-right: -32px;
+      margin-left: 42px;
   }
 
 }       
@@ -301,7 +306,28 @@ border-radius: 20px;
  {
      right: 79px;
   }
+/*carte menu*/
+.select{
+  left:88%;
+}
 
+.select3, .select4 , .select5
+{
+  left:87%
+}
+.plan__menu:hover > .select  
+      {
+      
+        transform: translateX(-25px);
+        transition-duration: 1.1s;
+        opacity: 1;
+      
+ } 
+  .btn1:hover{
+  background-image:linear-gradient(to bottom, #FF79DA 1%, #c040e7 91%) ;
+  padding: 2rem 1.6rem 2rem 1.6rem;
+  box-shadow: 10px 10px 10px $colour-shadow;
+  }
 }
 
  
@@ -404,25 +430,15 @@ border-radius: 20px;
 
   .plan__menu {
     width: 94%;
-    margin: 12px 92px 14px 20px;
-    
-   
-
-    
-  
+    margin: 12px 70px 14px 10px;
+      
 }
   .btn1 {
-    margin: -12% 8% 7% 65%;
-    padding: 2%;}
+    margin:8% 40% 7% 32%;
+    }
 }
 
-@media only screen and (min-width: 1422px) {
-  /*respnsive menu*/
-  .btn1 {
-    margin: 7% 25% 10% 25%;
-  }
-  
-}
+
 
 @media only screen and (min-width: 1441px) {
   .fonctionnement {
